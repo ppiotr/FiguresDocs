@@ -1,0 +1,45 @@
+
+* 10.03.2011 - CERN (Inspire week):
+
+"Building an infrastructure for accessing and analysing figures in scholarly publications"
+A presentation about the vision of the infrastructure for figures
+
+* 16.06.2011 - Unizar
+
+"Automatic extraction of figures from PDF documents"
+
+
+* 29.09.2011 - Berlin (TPDL):
+  "A Storage Model for Supporting Figures and Other Artefacts in Scientic Libraries: the Case Study of Invenio"
+
+* 07.02.2012 - CERN: Presentation about HEPData in INSPIRE
+
+
+* 02.02.2012 - CERN: Presentation about the general infrastructure for figures
+
+(Meeting with the UNI GE???)
+
+* 09.05.2012 - CERN: PhD students posters session
+
+"Capturing, Mining, Storing and Retrieving Scientific Images in INSPIRE"
+
+* 02.10.2012: CERN:(I dont remember the exact date and occasion ... this was one of the bigger Inspire meetings.
+Slides dat aof createion suggests 02.10.2012)
+
+* 14.11.2012 - AAHEP (CERN)
+
+"BibDocfile extensions"
+
+A presentation about the extensions to the Invenio data model
+http://indico.cern.ch/conferenceDisplay.py?confId=217160
+
+
+* 28.11.2012 - University of Cadiz (MTSR):
+
+"Integrating Scholarly Publications and Research Data - Preparing for Open Science, a Case Study from High-Energy Physics with Special Emphasis on (Meta)data Models"
+
+
+* 27.08.2013 - CERN: final presentation
+https://indico.cern.ch/conferenceDisplay.py?confId=268641
+
+

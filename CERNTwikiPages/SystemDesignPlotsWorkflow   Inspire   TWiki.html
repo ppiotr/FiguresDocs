@@ -1,0 +1,1257 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0070)https://twiki.cern.ch/twiki/bin/view/Inspire/SystemDesignPlotsWorkflow -->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en_US" lang="en_US"><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<script type="text/javascript" src="./SystemDesignPlotsWorkflow   Inspire   TWiki_files/jquery.js"></script>
+<link rel="stylesheet" href="./SystemDesignPlotsWorkflow   Inspire   TWiki_files/jquery-all.css" type="text/css" media="all">
+<script type="text/javascript" src="./SystemDesignPlotsWorkflow   Inspire   TWiki_files/jquery-all.js"></script>
+<link rel="stylesheet" href="./SystemDesignPlotsWorkflow   Inspire   TWiki_files/style.css" type="text/css" media="all">
+<link rel="stylesheet" href="./SystemDesignPlotsWorkflow   Inspire   TWiki_files/style(1).css" type="text/css" media="all">
+<link rel="stylesheet" href="./SystemDesignPlotsWorkflow   Inspire   TWiki_files/style(2).css" type="text/css" media="all">
+<title> SystemDesignPlotsWorkflow &lt; Inspire &lt; TWiki</title>
+
+<link rel="icon" href="https://twiki.cern.ch/twiki/pub/Inspire/WebPreferences/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="https://twiki.cern.ch/twiki/pub/Inspire/WebPreferences/favicon.ico" type="image/x-icon">
+<link rel="alternate" href="https://twiki.cern.ch/twiki/bin/edit/Inspire/SystemDesignPlotsWorkflow?t=1377775069" type="application/x-wiki" title="Edit SystemDesignPlotsWorkflow">
+<link rel="edit" href="https://twiki.cern.ch/twiki/bin/edit/Inspire/SystemDesignPlotsWorkflow?t=1377775069" title="Edit SystemDesignPlotsWorkflow">
+<meta name="SCRIPTURLPATH" content="/twiki/bin">
+<meta name="SCRIPTSUFFIX" content="">
+<meta name="TEXT_JUMP" content="Jump">
+<meta name="TEXT_SEARCH" content="Search">
+<meta name="TEXT_NUM_TOPICS" content="Number of topics:">
+<meta name="TEXT_MODIFY_SEARCH" content="Modify search">
+<link rel="alternate" type="application/rss+xml" title="RSS Feed" href="https://twiki.cern.ch/twiki/bin/view/Inspire/WebRss">
+<!--<base href="https://twiki.cern.ch/twiki/bin/view/Inspire/SystemDesignPlotsWorkflow">--><base href=".">
+<!--BEHAVIOURCONTRIB--><script type="text/javascript" src="./SystemDesignPlotsWorkflow   Inspire   TWiki_files/behaviour.compressed.js"></script>
+<script type="text/javascript" src="./SystemDesignPlotsWorkflow   Inspire   TWiki_files/twikilib.js"></script>
+<script type="text/javascript" src="./SystemDesignPlotsWorkflow   Inspire   TWiki_files/twikiWindow.js"></script>
+<script type="text/javascript" src="./SystemDesignPlotsWorkflow   Inspire   TWiki_files/twikiEvent.js"></script>
+<script type="text/javascript" src="./SystemDesignPlotsWorkflow   Inspire   TWiki_files/twikiHTML.js"></script>
+<script type="text/javascript" src="./SystemDesignPlotsWorkflow   Inspire   TWiki_files/twikiCSS.js"></script>
+<script type="text/javascript" src="./SystemDesignPlotsWorkflow   Inspire   TWiki_files/twikiForm.js"></script>
+<script type="text/javascript" src="./SystemDesignPlotsWorkflow   Inspire   TWiki_files/pattern.js"></script><style type="text/css" media="all">
+@import url('/twiki/pub/TWiki/TWikiTemplates/base.css');
+</style>
+<style type="text/css" media="all">
+#patternTopBar,
+#patternClearHeaderCenter,
+#patternClearHeaderLeft,
+#patternClearHeaderRight,
+#patternTopBarContentsOuter,
+#patternTopBarContents {
+	height:64px; /* top bar height; make room for header columns */
+	overflow:hidden;
+}
+#patternOuter {
+	margin-left:14em;
+}
+#patternLeftBar {
+	width:14em;
+	margin-left:-14em;
+}
+</style>
+<style type="text/css" media="all">
+@import url('/twiki/pub/TWiki/PatternSkin/layout.css');
+@import url('/twiki/pub/TWiki/PatternSkin/style.css');
+@import url('/twiki/pub/TWiki/PatternSkin/colors.css');
+</style>
+<style type="text/css" media="all">
+	/* Styles that are set using variables */
+	.patternBookView .twikiTopRow,
+	.patternWebIndicator a img,
+	.patternWebIndicator a:hover img {
+		background-color:#33FF99;
+	}
+	#patternTopBarContents { background-image:url(/twiki/pub/TWiki/PatternSkin/TWiki_header.gif); background-repeat:no-repeat;}
+	
+	.patternBookView {
+		border-color:#33FF99;
+	}
+	.patternPreviewPage #patternMain {
+		/* uncomment to set the preview image */
+		/*background-image:url("/twiki/pub/TWiki/PreviewBackground/preview2bg.gif");*/
+	}
+	
+</style><style type="text/css" media="all">
+
+
+
+</style>
+<style type="text/css" media="all">
+	@import url("/twiki/pub/TWiki/PatternSkin/print.css");
+</style>
+<!--[if IE]><style type="text/css" media="screen">
+pre {
+	overflow-x:auto;
+	padding-bottom:expression(this.scrollWidth > this.offsetWidth ? 16 : 0);
+}
+</style>
+<![endif]-->
+<!--[if lte IE 6]> 
+<style type="text/css">
+#patternLeftBar {
+	position:relative; /* IE 5.5 needs this or the contents won't show outside the parent container on print. IE 6.0 needs it only during printable copy! */
+}
+</style><![endif]-->
+<script type="text/javascript" src="./SystemDesignPlotsWorkflow   Inspire   TWiki_files/twikiStyles.js"></script><style type="text/css" media="all">.twikiMakeVisible{display:inline;}.twikiMakeVisibleInline{display:inline;}.twikiMakeVisibleBlock{display:block;}.twikiMakeHidden{display:none;}</style><style type="text/css"></style>
+<script src="./SystemDesignPlotsWorkflow   Inspire   TWiki_files/timetabletooltips.js" language="javascript" type="text/javascript"></script><!--GENERATED_HEADERS--><!-- TWISTYPLUGIN_TWISTY --> <style type="text/css" media="all">
+@import url("https://twiki.cern.ch/twiki/pub/TWiki/TwistyContrib/twist.css");
+</style>
+<script type="text/javascript" src="./SystemDesignPlotsWorkflow   Inspire   TWiki_files/behaviour.compressed.js"></script>
+<script type="text/javascript" src="./SystemDesignPlotsWorkflow   Inspire   TWiki_files/twikilib.js"></script>
+<script type="text/javascript" src="./SystemDesignPlotsWorkflow   Inspire   TWiki_files/twikiPref.js"></script>
+<script type="text/javascript" src="./SystemDesignPlotsWorkflow   Inspire   TWiki_files/twikiCSS.js"></script>
+<script type="text/javascript" src="./SystemDesignPlotsWorkflow   Inspire   TWiki_files/twist.compressed.js"></script>
+<script type="text/javascript">
+// <![CDATA[
+var styleText = '<style type="text/css" media="all">.twikiMakeVisible{display:inline;}.twikiMakeVisibleInline{display:inline;}.twikiMakeVisibleBlock{display:block;}.twikiMakeHidden{display:none;}</style>';
+document.write(styleText);
+// ]]>
+</script><style type="text/css" media="all">.twikiMakeVisible{display:inline;}.twikiMakeVisibleInline{display:inline;}.twikiMakeVisibleBlock{display:block;}.twikiMakeHidden{display:none;}</style>
+
+<!-- TABLEPLUGIN_twikiAttachmentsTable --> <style type="text/css" media="all">
+.tableSortIcon img {padding-left:.3em; vertical-align:text-bottom;}
+.twikiTable#twikiAttachmentsTable td {border-style:solid none;}
+.twikiTable#twikiAttachmentsTable th {border-style:solid none;}
+.twikiTable#twikiAttachmentsTable td {vertical-align:middle;}
+.twikiTable#twikiAttachmentsTable th {vertical-align:middle;}
+.twikiTable#twikiAttachmentsTable td {vertical-align:top;}
+.twikiTable#twikiAttachmentsTable th {background-color:#ffffff;}
+.twikiTable#twikiAttachmentsTable th.twikiSortedCol {background-color:#eeeeee;}
+.twikiTable#twikiAttachmentsTable th {color:#0066cc;}
+.twikiTable#twikiAttachmentsTable th a:link {color:#0066cc;}
+.twikiTable#twikiAttachmentsTable th a:visited {color:#0066cc;}
+.twikiTable#twikiAttachmentsTable th a:link font {color:#0066cc;}
+.twikiTable#twikiAttachmentsTable th a:visited font {color:#0066cc;}
+.twikiTable#twikiAttachmentsTable th a:hover {color:#ffffff;background-color:#0066cc;}
+.twikiTable#twikiAttachmentsTable th a:hover font {color:#ffffff;background-color:#0066cc;}
+.twikiTable#twikiAttachmentsTable tr.twikiTableRowdataBg0 td {background-color:#ffffff;}
+.twikiTable#twikiAttachmentsTable tr.twikiTableRowdataBg0 td.twikiSortedCol {background-color:#f5f5f5;}
+.twikiTable#twikiAttachmentsTable td.twikiTableCol0 {text-align:center;}
+.twikiTable#twikiAttachmentsTable td.twikiTableCol1 {text-align:left;}
+.twikiTable#twikiAttachmentsTable td.twikiTableCol2 {text-align:left;}
+.twikiTable#twikiAttachmentsTable td.twikiTableCol3 {text-align:right;}
+.twikiTable#twikiAttachmentsTable td.twikiTableCol4 {text-align:left;}
+.twikiTable#twikiAttachmentsTable td.twikiTableCol5 {text-align:left;}
+.twikiTable#twikiAttachmentsTable td.twikiTableCol6 {text-align:left;}
+.twikiTable#twikiAttachmentsTable td.twikiTableCol7 {text-align:center;}
+</style></head>
+<body class="patternViewPage">
+<a name="PageTop"></a>
+<div id="patternScreen">
+<div id="patternPageShadow">
+<div id="patternPage">
+<div id="patternWrapper"><div id="patternOuter">
+<div id="patternFloatWrap">
+<div id="patternMain"><div id="patternClearHeaderCenter"></div>
+<div id="patternMainContents"><div class="patternTop"><span class="patternHomePath twikiLeft"><a href="https://twiki.cern.ch/twiki/bin/view/Main/WebHome" class="twikiLink">TWiki</a><span class="twikiSeparator">&gt;</span><img src="./SystemDesignPlotsWorkflow   Inspire   TWiki_files/web-bg-small.gif" border="0" alt="" width="13" height="13" style="background-color:#33FF99">&nbsp;<a href="https://twiki.cern.ch/twiki/bin/view/Inspire/WebHome">Inspire Web</a><span class="twikiSeparator">&gt;</span><a href="./SystemDesignPlotsWorkflow   Inspire   TWiki_files/SystemDesignPlotsWorkflow   Inspire   TWiki.html" title="Topic revision: 12 (17-Jan-2012 - 17:33:55)">SystemDesignPlotsWorkflow</a> <span class="patternRevInfo">(17-Jan-2012, <a href="https://twiki.cern.ch/twiki/bin/view/Main/PiotrPraczyk" class="twikiLink">PiotrPraczyk</a>)</span></span><!-- /patternHomePath--><span class="patternToolBar twikiRight"><span><a href="https://twiki.cern.ch/twiki/bin/edit/Inspire/SystemDesignPlotsWorkflow?t=1377775069;nowysiwyg=1" rel="nofollow" title="Edit this topic text" accesskey="e"><img src="./SystemDesignPlotsWorkflow   Inspire   TWiki_files/uweb-o14.gif" width="14" height="14" border="0" alt=""> <span class="twikiAccessKey">E</span>dit</a></span><span><a href="https://twiki.cern.ch/twiki/bin/attach/Inspire/SystemDesignPlotsWorkflow" rel="nofollow" title="Attach an image or document to this topic" accesskey="a"><span class="twikiAccessKey">A</span>ttach</a></span><span><a href="https://twiki.cern.ch/twiki/bin/genpdf/Inspire/SystemDesignPlotsWorkflow" rel="nofollow" title="Create a PDF file for the topic" accesskey="f"><span class="twikiAccessKey">P</span>DF</a></span></span><!-- /patternToolBar--><br class="twikiClear"></div><!--/patternTop--><div class="twikiContentHeader"></div><div class="patternContent"><div class="patternTopic"> <h1><a name="Figures_Workflow_of_INSPIRE"></a> Figures Workflow of INSPIRE </h1>
+<p>
+</p><p>
+</p><div class="treePlugin">
+  <a href="./SystemDesignPlotsWorkflow   Inspire   TWiki_files/SystemDesignPlotsWorkflow   Inspire   TWiki.html" class="twikiCurrentTopicLink twikiLink">SystemDesignPlotsWorkflow</a> <br>
+1 <a href="https://twiki.cern.ch/twiki/bin/view/Inspire/SystemDesignFigureExtractorsMerging" class="twikiLink">SystemDesignFigureExtractorsMerging</a> <br>
+2 <a href="https://twiki.cern.ch/twiki/bin/view/Inspire/SystemDesignPDFFiguresExtractor" class="twikiLink">SystemDesignPDFFiguresExtractor</a> <br>
+3 <a href="https://twiki.cern.ch/twiki/bin/view/Inspire/SystemDesignSelectYourFigures" class="twikiLink">SystemDesignSelectYourFigures</a> <br>
+4 <a href="https://twiki.cern.ch/twiki/bin/view/Inspire/SystemDesignStorageOfFigures" class="twikiLink">SystemDesignStorageOfFigures</a> <br></div><!--//treePlugin-->
+<p>
+</p><p>
+</p><p>
+<img src="./SystemDesignPlotsWorkflow   Inspire   TWiki_files/PlotsWorkflow.png">
+</p><p>
+</p><p>
+</p><p>
+</p><p>
+</p><h1><a name="Plots_retrieval"></a> Plots retrieval </h1>
+<h2><a name="PDF_Plots_extractor"></a> PDF Plots extractor </h2>
+<p>
+SECTION TO BE WRITTEN
+</p><p>
+</p><h3><a name="PDF_Plots_extractor_TODO_list"></a> PDF Plots extractor TODO list </h3>
+<p>
+</p><p>
+</p><h3><a name="Testing_of_the_PDF_actor"></a> Testing of the PDF actor </h3>
+<p>
+The sctipts subdirectory of <span class="twikiNewLink"><a href="https://twiki.cern.ch/twiki/bin/edit/Inspire/PDFPlotsExtractor?topicparent=Inspire.SystemDesignPlotsWorkflow;nowysiwyg=1" rel="nofollow" title="this topic does not yet exist; you can create tit">PDFPlotsExtractor</a></span> contains a file called runTest.py
+This tool allows running tests samples from Inspire.
+The summary of options of the runTest.py tool:
+</p><p>
+</p><pre>Accepted options
+  -r number     --random=number  Runs in random mode. A number of random PDF's
+                                 will be retrieved from Inspire. They will be
+                                 saved in subdirectories of the output directory
+                                 and the extraction will be performed
+  -t test_name  --test test_name Specifies the name of the test
+                                 (results will be written in subdirectories
+                                 of this name)
+
+
+  -f file_name  --file=file_name Process a specific file on the input
+
+  -d directory  --directory=name Processes a specific directory of PDFs.
+                                 If the directory resulted from running
+                                 previous tests (tests_directory file
+                                 is present), fulltext.pdf files from
+                                 all subdirectories are processed.
+
+
+  -o dir_name  --output=dir_name Writes output in a specified directory
+  -h           --help            Prints this message
+  -n num       --threads=num     Spawns num parallel threads performing calculations
+
+
+  -s           --svg             Generate the SVG file
+  -p           --pages           Dump page images
+  -a           --annotate        Dump pages annotated with the location of
+                                 figures
+  -z           --operations     Annotate pages with the location of all
+                                 PDF operations
+
+Examples:
+   run.py -r 1000 -o some_test_dir
+
+   Executes a random test on 1000 records taken from Inspire and write results
+   in some_test_dir directory.
+
+   run.py -t tests1 -d previous_test_run
+
+</pre>
+<p>
+</p><h4><a name="1000_records_from_Inspire"></a> 1000 records from Inspire </h4>
+Machine on which the test was performed:
+<pre>[ppraczyk@pcudssq1403 ~]$ cat /proc/cpuinfo 
+processor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 26
+model name	: Intel(R) Xeon(R) CPU           L5520  @ 2.27GHz
+stepping	: 5
+cpu MHz		: 2268.000
+cache size	: 8192 KB
+physical id	: 0
+siblings	: 4
+core id		: 0
+cpu cores	: 4
+apicid		: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 11
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm syscall nx rdtscp lm constant_tsc ida nonstop_tsc pni monitor ds_cpl vmx est tm2 ssse3 cx16 xtpr sse4_1 sse4_2 popcnt lahf_lm
+bogomips	: 4533.62
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 40 bits physical, 48 bits virtual
+power management: [8]
+
+processor	: 1
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 26
+model name	: Intel(R) Xeon(R) CPU           L5520  @ 2.27GHz
+stepping	: 5
+cpu MHz		: 2268.000
+cache size	: 8192 KB
+physical id	: 0
+siblings	: 4
+core id		: 1
+cpu cores	: 4
+apicid		: 2
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 11
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm syscall nx rdtscp lm constant_tsc ida nonstop_tsc pni monitor ds_cpl vmx est tm2 ssse3 cx16 xtpr sse4_1 sse4_2 popcnt lahf_lm
+bogomips	: 4532.74
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 40 bits physical, 48 bits virtual
+power management: [8]
+
+processor	: 2
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 26
+model name	: Intel(R) Xeon(R) CPU           L5520  @ 2.27GHz
+stepping	: 5
+cpu MHz		: 2268.000
+cache size	: 8192 KB
+physical id	: 0
+siblings	: 4
+core id		: 2
+cpu cores	: 4
+apicid		: 4
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 11
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm syscall nx rdtscp lm constant_tsc ida nonstop_tsc pni monitor ds_cpl vmx est tm2 ssse3 cx16 xtpr sse4_1 sse4_2 popcnt lahf_lm
+bogomips	: 4532.81
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 40 bits physical, 48 bits virtual
+power management: [8]
+
+processor	: 3
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 26
+model name	: Intel(R) Xeon(R) CPU           L5520  @ 2.27GHz
+stepping	: 5
+cpu MHz		: 2268.000
+cache size	: 8192 KB
+physical id	: 0
+siblings	: 4
+core id		: 3
+cpu cores	: 4
+apicid		: 6
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 11
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm syscall nx rdtscp lm constant_tsc ida nonstop_tsc pni monitor ds_cpl vmx est tm2 ssse3 cx16 xtpr sse4_1 sse4_2 popcnt lahf_lm
+bogomips	: 4532.81
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 40 bits physical, 48 bits virtual
+power management: [8]
+
+processor	: 4
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 26
+model name	: Intel(R) Xeon(R) CPU           L5520  @ 2.27GHz
+stepping	: 5
+cpu MHz		: 2268.000
+cache size	: 8192 KB
+physical id	: 1
+siblings	: 4
+core id		: 0
+cpu cores	: 4
+apicid		: 16
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 11
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm syscall nx rdtscp lm constant_tsc ida nonstop_tsc pni monitor ds_cpl vmx est tm2 ssse3 cx16 xtpr sse4_1 sse4_2 popcnt lahf_lm
+bogomips	: 4532.91
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 40 bits physical, 48 bits virtual
+power management: [8]
+
+processor	: 5
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 26
+model name	: Intel(R) Xeon(R) CPU           L5520  @ 2.27GHz
+stepping	: 5
+cpu MHz		: 2268.000
+cache size	: 8192 KB
+physical id	: 1
+siblings	: 4
+core id		: 1
+cpu cores	: 4
+apicid		: 18
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 11
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm syscall nx rdtscp lm constant_tsc ida nonstop_tsc pni monitor ds_cpl vmx est tm2 ssse3 cx16 xtpr sse4_1 sse4_2 popcnt lahf_lm
+bogomips	: 4532.91
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 40 bits physical, 48 bits virtual
+power management: [8]
+
+processor	: 6
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 26
+model name	: Intel(R) Xeon(R) CPU           L5520  @ 2.27GHz
+stepping	: 5
+cpu MHz		: 2268.000
+cache size	: 8192 KB
+physical id	: 1
+siblings	: 4
+core id		: 2
+cpu cores	: 4
+apicid		: 20
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 11
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm syscall nx rdtscp lm constant_tsc ida nonstop_tsc pni monitor ds_cpl vmx est tm2 ssse3 cx16 xtpr sse4_1 sse4_2 popcnt lahf_lm
+bogomips	: 4532.85
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 40 bits physical, 48 bits virtual
+power management: [8]
+
+processor	: 7
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 26
+model name	: Intel(R) Xeon(R) CPU           L5520  @ 2.27GHz
+stepping	: 5
+cpu MHz		: 2268.000
+cache size	: 8192 KB
+physical id	: 1
+siblings	: 4
+core id		: 3
+cpu cores	: 4
+apicid		: 22
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 11
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm syscall nx rdtscp lm constant_tsc ida nonstop_tsc pni monitor ds_cpl vmx est tm2 ssse3 cx16 xtpr sse4_1 sse4_2 popcnt lahf_lm
+bogomips	: 4532.85
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 40 bits physical, 48 bits virtual
+power management: [8]
+</pre>
+<p>
+</p><p>
+Results:
+</p><p>
+</p><p>
+</p><p>
+-- <a href="https://twiki.cern.ch/twiki/bin/view/Main/PiotrPraczyk" class="twikiLink">PiotrPraczyk</a> - 30-Mar-2011
+</p><p> </p><ul>
+<li> <span class="twikiNewLink"><a href="https://twiki.cern.ch/twiki/bin/edit/Inspire/SunJDK?topicparent=Inspire.SystemDesignPlotsWorkflow;nowysiwyg=1" rel="nofollow" title="this topic does not yet exist; you can create tit">SunJDK</a></span> results: <br>     <img src="./SystemDesignPlotsWorkflow   Inspire   TWiki_files/1000records_sunjdk_parallel_execution_n7.png" alt="1000records_sunjdk_parallel_execution_n7.png" width="1920" height="1055">
+</li></ul> 
+<p> </p><ul>
+<li> <span class="twikiNewLink"><a href="https://twiki.cern.ch/twiki/bin/edit/Inspire/OpenJDK?topicparent=Inspire.SystemDesignPlotsWorkflow;nowysiwyg=1" rel="nofollow" title="this topic does not yet exist; you can create tit">OpenJDK</a></span> results: <br>     <img src="./SystemDesignPlotsWorkflow   Inspire   TWiki_files/1000records_openjdk_parallel_execution_n7.png" alt="1000records_openjdk_parallel_execution_n7.png" width="1920" height="1055">
+</li></ul> 
+<h2><a name="Select_Your_Figures"></a> Select Your Figures </h2>
+<h3><a name="What_is_CYP_interface"></a> What is CYP interface ? </h3>
+<p>
+Claim Your plots interface allows user to browse a publication submitted to Inspire and manually select all figures.
+The selection can be started from an empty set of figures or consist of refining the set of results of the automatic  plots extraction.
+</p><p>
+The interface of current preview of CYP interface can be seen in the figure below:<br>
+      <img src="./SystemDesignPlotsWorkflow   Inspire   TWiki_files/cyp.png">
+</p><p>
+</p><p>
+The interface at its current stage of development can be previewed at the address: <a href="http://pcgssi0904.cern.ch:8080/cmp/" target="_top">http://pcgssi0904.cern.ch:8080/cmp/</a> (Available from within CERN).
+At the current stage, the interface consists of a static HTML page and several Js files. Sources can be found in the AFS: /afs/cern.ch/user/p/ppraczyk/public/cyp.tgz
+In order to use the AFS version, the package has to be uncompressed and index.html file open from within the web browser.
+</p><p>
+</p><h3><a name="The_motivation"></a> The motivation </h3>
+<p>
+The automatic extraction  of figure might fail in many different circumstances. Such a situation creates a need for tool allowing manual  curation of the data.
+<span class="twikiNewLink"><a href="https://twiki.cern.ch/twiki/bin/edit/Inspire/BibEdit?topicparent=Inspire.SystemDesignPlotsWorkflow;nowysiwyg=1" rel="nofollow" title="this topic does not yet exist; you can create tit">BibEdit</a></span> is the module allowing manual edition of figures. Inputing data of the plot coordinates within a page is a very error-prone and slow process.
+CYP interface is a tool allowing users to select figures using graphical interface.
+</p><p>
+The interface focuses on the ease of use which might allow exposition of the interface to users of Inspire not having cataloging rights.
+</p><p>
+Having a set of records whose plots are manually curated would provide a testing set for the plot extraction algorithm.
+</p><p>
+</p><h3><a name="How_should_the_CYP_be_presented"></a> How should the CYP be presented to users </h3>
+<p>
+There are 3 categories of users that should be able to use CYP interface
+</p><p> </p><ul>
+<li> Catalogers - Users having special privileges allowing to modify the meta-data stored inside Inspire 
+</li> <li> Authors of a publications - users of Inspire who claimed to be authors of a given paper
+</li> <li> Other users - users of Inspire not being catalogers nor authors
+</li></ul> 
+<p>
+Catalogers and authors should have the right to make definitive changes to the record. The meta-data produced by them using the CYP interface should be processed by the meta-data driven plots extractor and subsequently passed to bibupload.
+Other users should be able to spot plots inside any publication. Their changes should not be automatically incorporated in the Inspire database but rather put into a holding pen waiting to be confirmed by a cataloguer or an author.
+</p><p>
+</p><h3><a name="The_architecture"></a> The architecture </h3>
+<p>
+CYP is a client-side Javascript application communicating with the python back-end using Ajax calls. 
+</p><p>
+Claim your plots interface uses the external module to render images representing pages of a PDF document being processed.
+The renderer uses cache in order to avoid processing of the same document over and over again. Depending on if we want to store rendered pages for longer or not, the cache lifetime might be set from a small period of time up to infinity.
+</p><p>
+Meta-data produced by the CYP interface is passed to the meta-data driven extractor which produces plot images (PNG and SVG ... possibly other forms of data) based on figures locations </p><ul>
+<li> This stage could also use images stored in the cache
+</li></ul> 
+<p>
+</p><p>
+</p><h4><a name="Should_the_state_at_every_single"></a> Should the state at every single moment be saved on the server side in a session or rather, occasional snapshots should be preserved ? </h4>
+<p>
+</p><h3><a name="Future_extensions"></a> Future extensions </h3> <ul>
+<li> The possibility of editing different types of plot-related data (i.e. annotation with semantic descriptions, attaching of data behind a figure, description of relations between figures)
+</li> <li> CYP as a <span class="twikiNewLink"><a href="https://twiki.cern.ch/twiki/bin/edit/Inspire/BibEdit?topicparent=Inspire.SystemDesignPlotsWorkflow;nowysiwyg=1" rel="nofollow" title="this topic does not yet exist; you can create tit">BibEdit</a></span> special mode ? (Allowing catalogers to edit all figures connected with a given paper)
+</li> <li> A system of user reputation (based on previous user actions) could allow other users to bypass the Holding Pen stage of figures processing provided they would have a good opinion in Inspire. [This would have to involve other modules as well]
+</li></ul> 
+<p>
+</p><h3><a name="Claim_your_plots_TODO_list"></a> Claim your plots TODO list: </h3> <ul>
+<li> Allow the presence of figures for which we do not know coordinates but we know images (the case of <img style="vertical-align:middle;" align="middle" width="41" height="16" src="./SystemDesignPlotsWorkflow   Inspire   TWiki_files/latexae8b2c305b1ca09f09be3772c740d47c.png" alt=" \LaTeX ">  extraction). Maybe some automatic attempt to detect position based on the image ? 
+</li> <li> Deal with space issues. The page is currently too wide. Elements of the interface should be more dynamic. Buttons to transform element into a floating window or to hide it. (Elements are: pages selector, figures selector, page view, figure control)
+</li> <li> Allow zooming on images. When someone clicks on the figure preview or on the caption preview, the image should grow until the user clicks again.
+</li> <li> Zooming the page view should preserve the center of the current view.
+</li> <li> Caption should be marked with a rectangle of a different colour on the page image
+</li> <li> rectangles on the page view should be clicable causing the corresponding figure to become active .... or maybe even allow automatic resizing of rectangles ?
+</li> <li> Develop saving of caption text
+</li> <li> Develop the automatic extraction from the figure caption selection
+</li> <li> Solve the problem with Internet Explorer -&gt; when hovering on the figures list, images get moved
+</li> <li> CSS should be splitted into part that is crucial for correct controls positioning and to the part that adjusts the viewing style
+</li> <li> Should there be an interactive tutorial demonstrating users which parts of the interface are responsible of what ?
+</li> <li> If there are no figures, an information should be displayed in the figures selection box.
+</li> <li> Integrate with the Invenio page
+</li></ul> 
+<p> </p><ul>
+<li> Develop the server side
+</li></ul> 
+<p>
+</p><h3><a name="Possible_different_usage_scenari"></a> Possible different usage scenarios </h3> <ul>
+<li> Using cached page images and stripped CYP interface we could provide a simple online document reader. This could be exploited to display elements of semantic information on top of the document image.
+</li></ul> 
+<h2><a name="Integration_of_different_figures"></a> Integration of different figures harvesters </h2>
+<p>
+PDF and <img style="vertical-align:middle;" align="middle" width="41" height="16" src="./SystemDesignPlotsWorkflow   Inspire   TWiki_files/latexfd491a61205e11d8f3fab5aa6b4dea3b.png" alt=" \LaTeX "> extractors are only two of many possible sources of figures data. Every source has different characteristics and limitations.
+In the case of some publications, the same figures can be retrieved in a different manner.
+Combining different sources of the same data could diminish the influence of shortcomings of different sources.
+In this section, we describe methods of combining data coming from different sources.
+The focus is put on integrating PDF and <img style="vertical-align:middle;" align="middle" width="41" height="16" src="./SystemDesignPlotsWorkflow   Inspire   TWiki_files/latexfd491a61205e11d8f3fab5aa6b4dea3b.png" alt=" \LaTeX "> extractors, but the same methods should be utilised in other cases such as plots provided directly by publishers or authors.
+</p><p>
+</p><h3><a name="Characteristics_of_meta_data"></a> Characteristics of meta-data </h3>
+<p>
+There are different types of meta-data that might be provided by figures sources. In general, sources vary in the characteristics of the data they can provide.
+In order to be able to unify the results, some restrictions have to be imposed on the types of provided results.
+</p><p>
+We assume that every source provides at least following portions of meta-data:
+</p><p> </p><ul>
+<li> raster image of the figure
+</li> <li> caption of the figure
+</li></ul> 
+<p>
+Aforementioned properties are utilised during the matching process. A non-exhaustive list of other types of data that might be provided from figure sources includes: </p><ul>
+<li> The exact location of a figure inside a publication (page, boundary)
+</li> <li> The exact location of a caption inside the publication (might be geometrical location but also position inside the full-text)
+</li> <li> Vector representation of figures (for example in the SVG format)
+</li> <li> The entire text present inside the figure
+</li> <li> Description of references to the figure from the full text
+</li> <li> Identifier utilised to refer to a figure from the full text
+</li> <li> Type of the figure (Discovery of this might be part of a different step of the figures treatment, but some sources might also provide this information)
+</li> <li> Data behind the figure 
+</li> <li> Semantic description of the figure's content (This will also be result of further analysis, but in some cases this information might be available from the source)
+</li> <li> <img style="vertical-align:middle;" align="middle" width="41" height="16" src="./SystemDesignPlotsWorkflow   Inspire   TWiki_files/latexfd491a61205e11d8f3fab5aa6b4dea3b.png" alt=" \LaTeX "> markup creating the figure (In the case of figures generated from within the markup)
+</li></ul> 
+<p>
+In addition to above, some portions of data characteristic to a paper from which the figure has been retrieved are describing the figure itself. This would be of particular importance if 
+figures were represented as autonomous beings only linked to the publications.
+This category of properties include: </p><ul>
+<li> Date of creation and publication
+</li> <li> Author(s)
+</li></ul> 
+<p>
+The purpose of the figures retrieval is obtaining as much additional information about the figure as possible. 
+The combination algorithm utilises only portions of data that are shared among all available extractors and enhances the results with all other available portions of data.
+If an additional portion of data is made available by more than one source, they might be used to increase the matching precision. 
+</p><p>
+Having the same portion of the description of a particular figure, the algorithm has to assess the quality of this information.
+Different sources might have different accuracy of retrieving different portions of information. For instance, automatic extraction of figure's image is more likely to fail in the case of PDF extraction than in the case of <img style="vertical-align:middle;" align="middle" width="41" height="16" src="./SystemDesignPlotsWorkflow   Inspire   TWiki_files/latexfd491a61205e11d8f3fab5aa6b4dea3b.png" alt=" \LaTeX "> extraction.
+However there is no certainty that PDF result will always be worse. (There exist counter examples). Similarly, information acquired from a manually-curated source is very likely to be accurate.
+</p><p>
+In this approach, we propose the description of an accuracy of every source and of every meta-data type provided from the source.
+The data source might also provide information, on how likely is the information to be precise. This information is though facultative.
+In the case of having many versions of the same information, the version being the most likely to be accurate is elected.
+A future extension might comprise a more sophisticated merging of the results based on the content of a particular (meta)data-field and its likeliness.
+</p><p>
+</p><p>
+(NOTE: explore the similarity with the RDF aggregation process... )
+</p><p>
+</p><h3><a name="The_unification_process"></a> The unification process </h3>
+<p>
+An overview of the process of merging results from different extractors is presented in a figure below<br>
+<img src="./SystemDesignPlotsWorkflow   Inspire   TWiki_files/figuresUnificationProcess.png" alt="figuresUnificationProcess.png" width="899" height="594">
+</p><p>
+</p><h4><a name="Calculation_of_the_distance_betw"></a> Calculation of the distance between figures </h4>
+<p>
+The first step consists of calculation of a relative distance between figures.
+In the perfect situation, this should involve incorporating the semantic meaning of figures.
+At the current stage, when no extractor of figures meaning is available, this can be achieved by the means of comparing partial information.
+</p><p>
+A sample comparison algorithm could take into account the distance between strings of figures caption. This might not be enough as sometimes captions of different plots are similar.
+The second portion of information that could be utilised is the image of the figure.
+Simple comparison of images (pixel by pixel) would not work because images might be shifter relative to each other while still representing the same part of the document.
+A research is needed for the method of detecting the situation when images are overlaping. (A naive algorithm is easy to imagine, but the execution time would be too high taking into account relatiely large size of graphical data).
+</p><p>
+</p><h4><a name="Matching_based_on_distances"></a> Matching based on distances </h4>
+Having results from several different extractors, we can form a graph having detected figures as vertices.
+We distinguish different categories of verticies based on the provenance of figures.
+Every vertex in the graph is connected with all vertices belonging to different category by an edge.
+Every edge <img style="vertical-align:middle;" align="middle" width="55" height="16" src="./SystemDesignPlotsWorkflow   Inspire   TWiki_files/latex364620d64c461c1a1c0b58fba85568e5.png" alt="$e(v_1, v_2)$"> is etiqueted with the distance between connected vertices <img style="vertical-align:middle;" align="middle" width="58" height="16" src="./SystemDesignPlotsWorkflow   Inspire   TWiki_files/latex853b1470413971a627de41cbd84f18d2.png" alt="$\mu(v_1, v_2)$">
+The picture below illustrates a sample graph constructed for figures coming from 3 different sources.
+<br><img src="./SystemDesignPlotsWorkflow   Inspire   TWiki_files/matching_1.png" alt="matching_1.png"><br>
+<p>
+Every category of vertices is extended by a special null vertex describing an empty figure.
+Similarly, those vertices are connected with all vertices from other categories.
+New edges are labeled with a constant value <img style="vertical-align:middle;" align="middle" width="11" height="12" src="./SystemDesignPlotsWorkflow   Inspire   TWiki_files/latex334c438212f1ae1c0116b2e94b4f0570.png" alt="$\Omega$"> being a parameter of the algorithm.
+An extended graph with new edges is depicted in the following illustration: 
+<br><img src="./SystemDesignPlotsWorkflow   Inspire   TWiki_files/matching_2.png" alt="matching_2.png"><br>
+</p><p>
+For every tuple of vertices from different categories, a number depending on values of connecting edges is calculated.
+As the first approximation, this value can be a simple sum.
+All calculated values are sorted. 
+</p><p>
+If the vertices forming the value are present in the graph, they are considered to describe the same figure.
+Subsequently, they are removed from the graph together with all the outgoing edges. This happens with the exception of null vertices which remain in the graph.
+The step is repeated until there are values in the queue.
+A tuple containing only null nodes is skipped.
+</p><p>
+The following illusration depicts the situation after removing the following tuple : (Figure1, Figure1, Figure2).
+<br><img src="./SystemDesignPlotsWorkflow   Inspire   TWiki_files/matching_2_5.png" alt="matching_2_5.png"><br>
+</p><p>
+After the algorithm finishes, we have a set of matched figure tuples:
+<br><img src="./SystemDesignPlotsWorkflow   Inspire   TWiki_files/matching_3.png" alt="matching_3.png"><br>
+</p><p>
+The presence of a null node inside the tuple is interpreted as missing a match from the category to which the null belongs. Other vertices are assumed to describe the same figure.
+</p><p>
+<br><br>
+The above schema might be relatively slow in the case of many sources and many figures. 
+A further work could be done in order to diminish the complexity of the algorithm.
+In the practical situations, this should be very fast though. The matching happens per publication. Every publication has a relatively low number of figures. (Even hundreds should not be a problem).
+</p><p>
+</p><h4><a name="Electing_representatives"></a> Electing representatives </h4>
+<p>
+This step resembles very much the aggregation of RDF statements, where resources correspond to separate figure classes decided to describe the same entity.
+If there appears of conflict (having the same type of data (with differing content) from different sources), it is resolved by taking the data that has the highest likeliness of being correct (Either assigned to the source or returned by the figures provider)
+</p><p>
+</p><h3><a name="Open_questions"></a> Open questions </h3> <ul>
+<li> The <img style="vertical-align:middle;" align="middle" width="41" height="16" src="./SystemDesignPlotsWorkflow   Inspire   TWiki_files/latexfd491a61205e11d8f3fab5aa6b4dea3b.png" alt=" \LaTeX ">  extractor ignores figures generated from the markup. Maybe the extractor could be extended to output the figure text. In this case though, no PNG image would be present making the matching process more difficult. (But in this case we could match based on caption only ... with one of the unmatched options at the end of the algorithm)
+</li> <li> Could the image search (the one based on splitting images into rectangles ... developed for the usage with photographs) be used for the task of comparing figure images (the step of calculating distance between images)
+</li></ul> 
+<p>
+</p><p>
+</p><p>
+</p><p>
+-- <a href="https://twiki.cern.ch/twiki/bin/view/Main/PiotrPraczyk" class="twikiLink">PiotrPraczyk</a> - 30-Mar-2011
+</p><p>
+<!-- this is a self-contained section: -->
+</p><h1><a name="Storage_of_figures"></a> Storage of figures </h1>
+<p>
+There are different approaches to store figures managed by Inspire. 
+This section describes several possible scenarios and points out the consequences of their choice.
+The decision, how figures should be stored in Inspire implies the way, we and users will think about figures.
+</p><p>
+</p><h2><a name="Storing_figures_as_attachments_t"></a> Storing figures as attachments to records </h2>
+<p>
+Currently, Invenio is capable of storing images and different types of attachments together with the bibliographical record.
+</p><p>
+</p><h2><a name="BibUpload_extensions"></a> <span class="twikiNewLink"><a href="https://twiki.cern.ch/twiki/bin/edit/Inspire/BibUpload?topicparent=Inspire.SystemDesignPlotsWorkflow;nowysiwyg=1" rel="nofollow" title="this topic does not yet exist; you can create tit">BibUpload</a></span> extensions </h2>
+<p>
+The data model that needs to be treated by extended <span class="twikiNewLink"><a href="https://twiki.cern.ch/twiki/bin/edit/Inspire/BibUpload?topicparent=Inspire.SystemDesignPlotsWorkflow;nowysiwyg=1" rel="nofollow" title="this topic does not yet exist; you can create tit">BibUpload</a></span> (modulo name changes)
+<img alt="NewToPresent.png" src="./SystemDesignPlotsWorkflow   Inspire   TWiki_files/NewToPresent.png">
+</p><p>
+</p><h3><a name="API_Level"></a> API Level </h3>
+<h4><a name="Plugins_for_BibDoc"></a> Plugins for <span class="twikiNewLink"><a href="https://twiki.cern.ch/twiki/bin/edit/Inspire/BibDoc?topicparent=Inspire.SystemDesignPlotsWorkflow;nowysiwyg=1" rel="nofollow" title="this topic does not yet exist; you can create tit">BibDoc</a></span> </h4>
+<p>
+Every module can define a subclass of <span class="twikiNewLink"><a href="https://twiki.cern.ch/twiki/bin/edit/Inspire/BibDoc?topicparent=Inspire.SystemDesignPlotsWorkflow;nowysiwyg=1" rel="nofollow" title="this topic does not yet exist; you can create tit">BibDoc</a></span> that will be dynamically loaded based on the document type.
+The Invenio plugins system is utilised to achieve this behaviour.
+</p><p>
+</p><h4><a name="MoreInfo"></a> <span class="twikiNewLink"><a href="https://twiki.cern.ch/twiki/bin/edit/Inspire/MoreInfo?topicparent=Inspire.SystemDesignPlotsWorkflow;nowysiwyg=1" rel="nofollow" title="this topic does not yet exist; you can create tit">MoreInfo</a></span> </h4>
+<p>
+New <span class="twikiNewLink"><a href="https://twiki.cern.ch/twiki/bin/edit/Inspire/MoreInfo?topicparent=Inspire.SystemDesignPlotsWorkflow;nowysiwyg=1" rel="nofollow" title="this topic does not yet exist; you can create tit">MoreInfo</a></span> class supports several modes of  interoperability with the database
+The constructor syntax looks as follows:
+</p><p>
+def __init__(self, docid = None, version = None, format = None, relation = None, cache_only = False, cache_reads = True, initial_data = None)
+</p><p>
+Parametes modifying the database-behaviour are: cache_only and cache_reads
+</p><p>
+1) Every write and read operation can be redirected to the database  (this happens when cache_only = False and cache_reads = True)
+</p><p>
+2) All the operations can be performed in-memory and values have to be flushed manually (cache_only = True)
+    In order to read values from the database, the populate_from_database method has to be called. In order to save values to the database, the flush method has to be called.
+    This mode is the most similar to previous behviour of <span class="twikiNewLink"><a href="https://twiki.cern.ch/twiki/bin/edit/Inspire/MoreInfo?topicparent=Inspire.SystemDesignPlotsWorkflow;nowysiwyg=1" rel="nofollow" title="this topic does not yet exist; you can create tit">MoreInfo</a></span>. In this Mode, <span class="twikiNewLink"><a href="https://twiki.cern.ch/twiki/bin/edit/Inspire/MoreInfo?topicparent=Inspire.SystemDesignPlotsWorkflow;nowysiwyg=1" rel="nofollow" title="this topic does not yet exist; you can create tit">MoreInfo</a></span> is not aware of changes in the database.
+</p><p>
+3) All writes are redirected to the database, all read operations are from the cache. In the case, a key is missing, <span class="twikiNewLink"><a href="https://twiki.cern.ch/twiki/bin/edit/Inspire/MoreInfo?topicparent=Inspire.SystemDesignPlotsWorkflow;nowysiwyg=1" rel="nofollow" title="this topic does not yet exist; you can create tit">MoreInfo</a></span> attempts to retrieve
+    data from the database.
+    In this mode, <span class="twikiNewLink"><a href="https://twiki.cern.ch/twiki/bin/edit/Inspire/MoreInfo?topicparent=Inspire.SystemDesignPlotsWorkflow;nowysiwyg=1" rel="nofollow" title="this topic does not yet exist; you can create tit">MoreInfo</a></span> will not be aware if a key has been modified or removed in the database, but will detect new keys being added.
+    To obtain an object with this semantic: cache_reads=True, cache_only=False
+</p><p>
+Passing the initial_data argument will cause enriching the data structure with passed values. (In the case of persistent more-info).
+In the case of in-memory more-info, the internal cache will be set to the passed value.
+This functionality is useful for uploading new values to <span class="twikiNewLink"><a href="https://twiki.cern.ch/twiki/bin/edit/Inspire/MoreInfo?topicparent=Inspire.SystemDesignPlotsWorkflow;nowysiwyg=1" rel="nofollow" title="this topic does not yet exist; you can create tit">MoreInfo</a></span> structures.
+</p><p>
+</p><p>
+</p><h3><a name="BRT_field"></a> BRT field </h3>
+<p>
+BRT (<span class="twikiNewLink"><a href="https://twiki.cern.ch/twiki/bin/edit/Inspire/BibRelation?topicparent=Inspire.SystemDesignPlotsWorkflow;nowysiwyg=1" rel="nofollow" title="this topic does not yet exist; you can create tit">BibRelation</a></span> Transfer) field allows to upload a relation between two <span class="twikiNewLink"><a href="https://twiki.cern.ch/twiki/bin/edit/Inspire/BibDocs?topicparent=Inspire.SystemDesignPlotsWorkflow;nowysiwyg=1" rel="nofollow" title="this topic does not yet exist; you can create tit">BibDocs</a></span>. An instance of this field should (by convention) be placed inside of a record corresponding 
+</p><p>
+</p><p>
+Subfields of the BRT MARC field:
+</p><p>
+</p><table cellspacing="0" id="table1" cellpadding="0" class="twikiTable" rules="all" border="1">
+		<tbody><tr class="twikiTableOdd twikiTableRowdataBgSorted0 twikiTableRowdataBg0">
+			<th bgcolor="#687684" valign="top" class="twikiTableCol0 twikiFirstCol"> <a rel="nofollow" href="https://twiki.cern.ch/twiki/bin/view/Inspire/SystemDesignPlotsWorkflow?sortcol=0;table=1;up=0#sorted_table" title="Sort by this column"><font color="#ffffff">subfield</font></a> </th>
+			<th bgcolor="#687684" valign="top" class="twikiTableCol1 twikiLastCol"> <a rel="nofollow" href="https://twiki.cern.ch/twiki/bin/view/Inspire/SystemDesignPlotsWorkflow?sortcol=1;table=1;up=0#sorted_table" title="Sort by this column"><font color="#ffffff">explanation</font></a> </th>
+		</tr>
+		<tr class="twikiTableEven twikiTableRowdataBgSorted0 twikiTableRowdataBg0">
+			<td bgcolor="#ffffff" valign="top" class="twikiTableCol0 twikiFirstCol"> $r </td>
+			<td bgcolor="#ffffff" valign="top" class="twikiTableCol1 twikiLastCol"> identifier of the relation </td>
+		</tr>
+		<tr class="twikiTableOdd twikiTableRowdataBgSorted1 twikiTableRowdataBg1">
+			<td bgcolor="#edf4f9" valign="top" class="twikiTableCol0 twikiFirstCol"> $i </td>
+			<td bgcolor="#edf4f9" valign="top" class="twikiTableCol1 twikiLastCol"> identifier of the first object </td>
+		</tr>
+		<tr class="twikiTableEven twikiTableRowdataBgSorted0 twikiTableRowdataBg0">
+			<td bgcolor="#ffffff" valign="top" class="twikiTableCol0 twikiFirstCol"> $n </td>
+			<td bgcolor="#ffffff" valign="top" class="twikiTableCol1 twikiLastCol"> first object name (within the scope of current record) </td>
+		</tr>
+		<tr class="twikiTableOdd twikiTableRowdataBgSorted1 twikiTableRowdataBg1">
+			<td bgcolor="#edf4f9" valign="top" class="twikiTableCol0 twikiFirstCol"> $v </td>
+			<td bgcolor="#edf4f9" valign="top" class="twikiTableCol1 twikiLastCol"> first object version </td>
+		</tr>
+		<tr class="twikiTableEven twikiTableRowdataBgSorted0 twikiTableRowdataBg0">
+			<td bgcolor="#ffffff" valign="top" class="twikiTableCol0 twikiFirstCol"> $f </td>
+			<td bgcolor="#ffffff" valign="top" class="twikiTableCol1 twikiLastCol"> first object format </td>
+		</tr>
+		<tr class="twikiTableOdd twikiTableRowdataBgSorted1 twikiTableRowdataBg1">
+			<td bgcolor="#edf4f9" valign="top" class="twikiTableCol0 twikiFirstCol"> $j </td>
+			<td bgcolor="#edf4f9" valign="top" class="twikiTableCol1 twikiLastCol"> identifier of the second object </td>
+		</tr>
+		<tr class="twikiTableEven twikiTableRowdataBgSorted0 twikiTableRowdataBg0">
+			<td bgcolor="#ffffff" valign="top" class="twikiTableCol0 twikiFirstCol"> $o </td>
+			<td bgcolor="#ffffff" valign="top" class="twikiTableCol1 twikiLastCol"> second object name (within the scope of current record) </td>
+		</tr>
+		<tr class="twikiTableOdd twikiTableRowdataBgSorted1 twikiTableRowdataBg1">
+			<td bgcolor="#edf4f9" valign="top" class="twikiTableCol0 twikiFirstCol"> $w </td>
+			<td bgcolor="#edf4f9" valign="top" class="twikiTableCol1 twikiLastCol"> second object version </td>
+		</tr>
+		<tr class="twikiTableEven twikiTableRowdataBgSorted0 twikiTableRowdataBg0">
+			<td bgcolor="#ffffff" valign="top" class="twikiTableCol0 twikiFirstCol"> $g </td>
+			<td bgcolor="#ffffff" valign="top" class="twikiTableCol1 twikiLastCol"> second object format </td>
+		</tr>
+		<tr class="twikiTableOdd twikiTableRowdataBgSorted1 twikiTableRowdataBg1">
+			<td bgcolor="#edf4f9" valign="top" class="twikiTableCol0 twikiFirstCol"> $t </td>
+			<td bgcolor="#edf4f9" valign="top" class="twikiTableCol1 twikiLastCol"> relation type (string) </td>
+		</tr>
+		<tr class="twikiTableEven twikiTableRowdataBgSorted0 twikiTableRowdataBg0">
+			<td bgcolor="#ffffff" valign="top" class="twikiTableCol0 twikiFirstCol"> $m </td>
+			<td bgcolor="#ffffff" valign="top" class="twikiTableCol1 twikiLastCol"> more info of the relation </td>
+		</tr>
+		<tr class="twikiTableOdd twikiTableRowdataBgSorted1 twikiTableRowdataBg1">
+			<td bgcolor="#edf4f9" valign="top" class="twikiTableCol0 twikiFirstCol"> $r </td>
+			<td bgcolor="#edf4f9" valign="top" class="twikiTableCol1 twikiLastCol"> identifier of the relation (if the relation already exists, might replace the set of arguments (about first and second document, version etc... ) </td>
+		</tr>
+		<tr class="twikiTableEven twikiTableRowdataBgSorted0 twikiTableRowdataBg0">
+			<td bgcolor="#ffffff" valign="top" class="twikiTableCol0 twikiFirstCol twikiLast"> $d </td>
+			<td bgcolor="#ffffff" valign="top" class="twikiTableCol1 twikiLastCol twikiLast"> a special control filed allowing (for the moment only) to delete a relation by providing the DELETE value </td>
+		</tr></tbody></table>
+<p>
+Providing the relation identifier identifies uniquely both document id's versions, formats and relation type.
+This field is useful fo rmanipulating <span class="twikiNewLink"><a href="https://twiki.cern.ch/twiki/bin/edit/Inspire/MoreInfo?topicparent=Inspire.SystemDesignPlotsWorkflow;nowysiwyg=1" rel="nofollow" title="this topic does not yet exist; you can create tit">MoreInfo</a></span> of a known relation.
+</p><p>
+For a document, either the document identifier or name within current record can be provided. In the case of providing both, the identifier will be used regardless if name points the same <span class="twikiNewLink"><a href="https://twiki.cern.ch/twiki/bin/edit/Inspire/BibDoc?topicparent=Inspire.SystemDesignPlotsWorkflow;nowysiwyg=1" rel="nofollow" title="this topic does not yet exist; you can create tit">BibDoc</a></span>.
+</p><p>
+Behaviour of BRT tag with respect to different <span class="twikiNewLink"><a href="https://twiki.cern.ch/twiki/bin/edit/Inspire/BibUpload?topicparent=Inspire.SystemDesignPlotsWorkflow;nowysiwyg=1" rel="nofollow" title="this topic does not yet exist; you can create tit">BibUpload</a></span> modes.
+</p><p>
+</p><table cellspacing="0" id="table2" cellpadding="0" class="twikiTable" rules="all" border="1">
+		<tbody><tr class="twikiTableOdd twikiTableRowdataBgSorted0 twikiTableRowdataBg0">
+			<th bgcolor="#687684" valign="top" class="twikiTableCol0 twikiFirstCol"> <a rel="nofollow" href="https://twiki.cern.ch/twiki/bin/view/Inspire/SystemDesignPlotsWorkflow?sortcol=0;table=2;up=0#sorted_table" title="Sort by this column"><font color="#ffffff">mode</font></a> </th>
+			<th bgcolor="#687684" valign="top" class="twikiTableCol1 twikiLastCol"> <a rel="nofollow" href="https://twiki.cern.ch/twiki/bin/view/Inspire/SystemDesignPlotsWorkflow?sortcol=1;table=2;up=0#sorted_table" title="Sort by this column"><font color="#ffffff">behaviour</font></a> </th>
+		</tr>
+		<tr class="twikiTableEven twikiTableRowdataBgSorted0 twikiTableRowdataBg0">
+			<td bgcolor="#ffffff" valign="top" class="twikiTableCol0 twikiFirstCol"> insert, append </td>
+			<td bgcolor="#ffffff" valign="top" class="twikiTableCol1 twikiLastCol"> Inserts new relation if necessary. Appends fields to the <span class="twikiNewLink"><a href="https://twiki.cern.ch/twiki/bin/edit/Inspire/MoreInfo?topicparent=Inspire.SystemDesignPlotsWorkflow;nowysiwyg=1" rel="nofollow" title="this topic does not yet exist; you can create tit">MoreInfo</a></span> structure </td>
+		</tr>
+		<tr class="twikiTableOdd twikiTableRowdataBgSorted1 twikiTableRowdataBg1">
+			<td bgcolor="#edf4f9" valign="top" class="twikiTableCol0 twikiFirstCol"> correct </td>
+			<td bgcolor="#edf4f9" valign="top" class="twikiTableCol1 twikiLastCol"> Creates new relation if necessary, replaces the entire content of <span class="twikiNewLink"><a href="https://twiki.cern.ch/twiki/bin/edit/Inspire/MoreInfo?topicparent=Inspire.SystemDesignPlotsWorkflow;nowysiwyg=1" rel="nofollow" title="this topic does not yet exist; you can create tit">MoreInfo</a></span> field </td>
+		</tr>
+		<tr class="twikiTableEven twikiTableRowdataBgSorted0 twikiTableRowdataBg0">
+			<td bgcolor="#ffffff" valign="top" class="twikiTableCol0 twikiFirstCol twikiLast"> replace </td>
+			<td bgcolor="#ffffff" valign="top" class="twikiTableCol1 twikiLastCol twikiLast"> This mode does not make sense in the context of relations (there is no such thing as relation of a record). Behaves in exactly the same manner as correct </td>
+		</tr></tbody></table>
+<p>
+</p><h3><a name="BDR_field"></a> BDR field </h3>
+<p>
+BDF field allows to attach an existing <span class="twikiNewLink"><a href="https://twiki.cern.ch/twiki/bin/edit/Inspire/BibDoc?topicparent=Inspire.SystemDesignPlotsWorkflow;nowysiwyg=1" rel="nofollow" title="this topic does not yet exist; you can create tit">BibDoc</a></span> to a record.
+</p><p>
+</p><table cellspacing="0" id="table3" cellpadding="0" class="twikiTable" rules="all" border="1">
+		<tbody><tr class="twikiTableOdd twikiTableRowdataBgSorted0 twikiTableRowdataBg0">
+			<th bgcolor="#687684" valign="top" class="twikiTableCol0 twikiFirstCol"> <a rel="nofollow" href="https://twiki.cern.ch/twiki/bin/view/Inspire/SystemDesignPlotsWorkflow?sortcol=0;table=3;up=0#sorted_table" title="Sort by this column"><font color="#ffffff">subfield</font></a> </th>
+			<th bgcolor="#687684" valign="top" class="twikiTableCol1 twikiLastCol"> <a rel="nofollow" href="https://twiki.cern.ch/twiki/bin/view/Inspire/SystemDesignPlotsWorkflow?sortcol=1;table=3;up=0#sorted_table" title="Sort by this column"><font color="#ffffff">explanation</font></a> </th>
+		</tr>
+		<tr class="twikiTableEven twikiTableRowdataBgSorted0 twikiTableRowdataBg0">
+			<td bgcolor="#ffffff" valign="top" class="twikiTableCol0 twikiFirstCol"> $i </td>
+			<td bgcolor="#ffffff" valign="top" class="twikiTableCol1 twikiLastCol"> The identifier of the <span class="twikiNewLink"><a href="https://twiki.cern.ch/twiki/bin/edit/Inspire/BibDoc?topicparent=Inspire.SystemDesignPlotsWorkflow;nowysiwyg=1" rel="nofollow" title="this topic does not yet exist; you can create tit">BibDoc</a></span> </td>
+		</tr>
+		<tr class="twikiTableOdd twikiTableRowdataBgSorted1 twikiTableRowdataBg1">
+			<td bgcolor="#edf4f9" valign="top" class="twikiTableCol0 twikiFirstCol twikiLast"> $t </td>
+			<td bgcolor="#edf4f9" valign="top" class="twikiTableCol1 twikiLastCol twikiLast"> function in which this <span class="twikiNewLink"><a href="https://twiki.cern.ch/twiki/bin/edit/Inspire/BibDoc?topicparent=Inspire.SystemDesignPlotsWorkflow;nowysiwyg=1" rel="nofollow" title="this topic does not yet exist; you can create tit">BibDoc</a></span> appears in the record (for example Figure, Main) </td>
+		</tr></tbody></table>
+<p>
+</p><h3><a name="Extensions_of_the_FFT_field"></a> Extensions of the FFT field </h3>
+<p>
+The FFT field is the main MARC field allowing manipulations of <span class="twikiNewLink"><a href="https://twiki.cern.ch/twiki/bin/edit/Inspire/BibDocs?topicparent=Inspire.SystemDesignPlotsWorkflow;nowysiwyg=1" rel="nofollow" title="this topic does not yet exist; you can create tit">BibDocs</a></span>.
+</p><p>
+Following table presents new subfields of FFT allowing to manipulate <span class="twikiNewLink"><a href="https://twiki.cern.ch/twiki/bin/edit/Inspire/MoreInfo?topicparent=Inspire.SystemDesignPlotsWorkflow;nowysiwyg=1" rel="nofollow" title="this topic does not yet exist; you can create tit">MoreInfo</a></span> data structures corresponding to a document.
+</p><p>
+</p><p>
+</p><table cellspacing="0" id="table4" cellpadding="0" class="twikiTable" rules="all" border="1">
+		<tbody><tr class="twikiTableOdd twikiTableRowdataBgSorted0 twikiTableRowdataBg0">
+			<th bgcolor="#687684" valign="top" class="twikiTableCol0 twikiFirstCol"> <a rel="nofollow" href="https://twiki.cern.ch/twiki/bin/view/Inspire/SystemDesignPlotsWorkflow?sortcol=0;table=4;up=0#sorted_table" title="Sort by this column"><font color="#ffffff">subfield</font></a> </th>
+			<th bgcolor="#687684" valign="top" class="twikiTableCol1 twikiLastCol"> <a rel="nofollow" href="https://twiki.cern.ch/twiki/bin/view/Inspire/SystemDesignPlotsWorkflow?sortcol=1;table=4;up=0#sorted_table" title="Sort by this column"><font color="#ffffff">meaning</font></a> </th>
+		</tr>
+		<tr class="twikiTableEven twikiTableRowdataBgSorted0 twikiTableRowdataBg0">
+			<td bgcolor="#ffffff" valign="top" class="twikiTableCol0 twikiFirstCol"> $o </td>
+			<td bgcolor="#ffffff" valign="top" class="twikiTableCol1 twikiLastCol"> modification of the content of <span class="twikiNewLink"><a href="https://twiki.cern.ch/twiki/bin/edit/Inspire/MoreInfo?topicparent=Inspire.SystemDesignPlotsWorkflow;nowysiwyg=1" rel="nofollow" title="this topic does not yet exist; you can create tit">MoreInfo</a></span> of a document </td>
+		</tr>
+		<tr class="twikiTableOdd twikiTableRowdataBgSorted1 twikiTableRowdataBg1">
+			<td bgcolor="#edf4f9" valign="top" class="twikiTableCol0 twikiFirstCol"> $p </td>
+			<td bgcolor="#edf4f9" valign="top" class="twikiTableCol1 twikiLastCol"> modification of the content of <span class="twikiNewLink"><a href="https://twiki.cern.ch/twiki/bin/edit/Inspire/MoreInfo?topicparent=Inspire.SystemDesignPlotsWorkflow;nowysiwyg=1" rel="nofollow" title="this topic does not yet exist; you can create tit">MoreInfo</a></span> of a document version </td>
+		</tr>
+		<tr class="twikiTableEven twikiTableRowdataBgSorted0 twikiTableRowdataBg0">
+			<td bgcolor="#ffffff" valign="top" class="twikiTableCol0 twikiFirstCol"> $s </td>
+			<td bgcolor="#ffffff" valign="top" class="twikiTableCol1 twikiLastCol"> modification of the content of <span class="twikiNewLink"><a href="https://twiki.cern.ch/twiki/bin/edit/Inspire/MoreInfo?topicparent=Inspire.SystemDesignPlotsWorkflow;nowysiwyg=1" rel="nofollow" title="this topic does not yet exist; you can create tit">MoreInfo</a></span> of a document format (in a particular version) </td>
+		</tr>
+		<tr class="twikiTableOdd twikiTableRowdataBgSorted1 twikiTableRowdataBg1">
+			<td bgcolor="#edf4f9" valign="top" class="twikiTableCol0 twikiFirstCol twikiLast"> $u </td>
+			<td bgcolor="#edf4f9" valign="top" class="twikiTableCol1 twikiLastCol twikiLast"> modification of the content of <span class="twikiNewLink"><a href="https://twiki.cern.ch/twiki/bin/edit/Inspire/MoreInfo?topicparent=Inspire.SystemDesignPlotsWorkflow;nowysiwyg=1" rel="nofollow" title="this topic does not yet exist; you can create tit">MoreInfo</a></span> of a document format (in general, without a particular version) </td>
+		</tr></tbody></table>
+<p>
+</p><h3><a name="Encoding_of_MoreInfo_structures"></a> Encoding of <span class="twikiNewLink"><a href="https://twiki.cern.ch/twiki/bin/edit/Inspire/MoreInfo?topicparent=Inspire.SystemDesignPlotsWorkflow;nowysiwyg=1" rel="nofollow" title="this topic does not yet exist; you can create tit">MoreInfo</a></span> structures </h3>
+<p>
+<span class="twikiNewLink"><a href="https://twiki.cern.ch/twiki/bin/edit/Inspire/MoreInfos?topicparent=Inspire.SystemDesignPlotsWorkflow;nowysiwyg=1" rel="nofollow" title="this topic does not yet exist; you can create tit">MoreInfos</a></span> have structure foreign to the MARC XML schema. We update <span class="twikiNewLink"><a href="https://twiki.cern.ch/twiki/bin/edit/Inspire/MoreInfo?topicparent=Inspire.SystemDesignPlotsWorkflow;nowysiwyg=1" rel="nofollow" title="this topic does not yet exist; you can create tit">MoreInfo</a></span> dictionaries using cPickle- erialised, base64 encoded strings passed inside of MARC subfields.
+</p><p>
+</p><h3><a name="Temporary_identifiers"></a> Temporary identifiers </h3>
+<p>
+During the upload process, one can specify temporary identifiers that will be expanded during the run-time.
+Each identifier is valid inside a scope of processing a single MARCXML document.
+</p><p>
+Temporary identifiers allow to upload links between objects along with objects themselves.
+Persistent identifiers are assigned during the upload process so are not available during the preparation of input MARC XML document.
+</p><p>
+Temporary identifiers can be used for document versions and for document identifiers.
+Each identifer starting with a string "TMP:" followed by a unique name will be considered temporary.
+</p><p>
+If bibupload encounters FFT field containing temporary identifiers, those identifiers are assigned with the identifier/version of currently uploaded document. 
+During the processing of BRT and MIT tags, only identifiers appearing earlier in some FFT tags can be used.
+They will be replaced by previously resolved values.
+</p><p>
+</p><h3><a name="Examples_of_input_MARC_XML"></a> Examples of input MARC XML </h3>
+<p>
+Example of uploading a file with two documents attached and establishing a relation between them
+</p><pre>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+
+&lt;!--Uploading two documents and a relation between them--&gt;
+&lt;collection xmlns="http://www.loc.gov/MARC21/slim"&gt;
+  &lt;record&gt;
+
+    &lt;datafield tag="100" ind1=" " ind2=" "&gt;
+      &lt;subfield code="a"&gt;Some data&lt;/subfield&gt;
+    &lt;/datafield&gt;
+
+    &lt;datafield tag="123" ind1=" " ind2=" "&gt;
+      &lt;subfield code="a"&gt;Some other data&lt;/subfield&gt;
+    &lt;/datafield&gt;
+
+    &lt;datafield tag="FFT" ind1=" " ind2=" "&gt;
+      &lt;subfield code="a"&gt;http://invenio-software.org/download/invenio-demo-site-files/0106015_01.jpg&lt;/subfield&gt;
+      &lt;subfield code="r"&gt;restricted_picture&lt;/subfield&gt;
+      &lt;subfield code="n"&gt;doc1&lt;/subfield&gt;
+      &lt;subfield code="i"&gt;TMP:Definedidentifier&lt;/subfield&gt;
+      &lt;subfield code="v"&gt;TMP:TmpVersion1&lt;/subfield&gt;
+    &lt;/datafield&gt;
+
+    &lt;datafield tag="FFT" ind1=" " ind2=" "&gt;
+      &lt;subfield code="a"&gt;http://invenio-software.org/download/invenio-demo-site-files/0106015_01.jpg&lt;/subfield&gt;
+      &lt;subfield code="r"&gt;restricted_picture_ble&lt;/subfield&gt;
+      &lt;subfield code="n"&gt;doc2&lt;/subfield&gt;
+      &lt;subfield code="i"&gt;TMP:Definedidentifier2&lt;/subfield&gt;
+      &lt;subfield code="v"&gt;TMP:TmpVersion2&lt;/subfield&gt;
+    &lt;/datafield&gt;
+
+
+    &lt;!--Uploading relation between the two newly created documents in their newest versions... togerher with
+        MoreInfo data associated with them--&gt;
+
+    &lt;datafield tag="BRT" ind1=" " ind2=" "&gt;
+      &lt;subfield code="i"&gt;TMP:Definedidentifier&lt;/subfield&gt;
+      &lt;subfield code="v"&gt;TMP:TmpVersion1&lt;/subfield&gt;
+      &lt;subfield code="j"&gt;TMP:Definedidentifier2&lt;/subfield&gt;
+      &lt;subfield code="w"&gt;TMP:TmpVersion2&lt;/subfield&gt;
+      &lt;subfield code="t"&gt;is_extracted_from&lt;/subfield&gt;
+      &lt;subfield code="m"&gt;KGRwMQpTJ2ZpZ3VyZXMnCnAyCihkcDMKUyd5JwpJMjMKc1MneCcKSTEyCnNzLg==&lt;/subfield&gt;
+    &lt;/datafield&gt;
+
+    &lt;!-- Upload a relation between newly uploaded records The first record appears in the new version and
+    the second in all versions (no version specified) --&gt;
+
+    &lt;datafield tag="BRT" ind1=" " ind2=" "&gt;
+      &lt;subfield code="i"&gt;TMP:Definedidentifier&lt;/subfield&gt;
+      &lt;subfield code="v"&gt;TMP:TmpVersion1&lt;/subfield&gt;
+      &lt;subfield code="j"&gt;TMP:Definedidentifier2&lt;/subfield&gt;
+      &lt;subfield code="t"&gt;is_extracted_from&lt;/subfield&gt;
+      &lt;subfield code="m"&gt;KGRwMQpTJ2ZpZ3VyZXMnCnAyCihkcDMKUyd5JwpJMjMKc1MneCcKSTEyCnNzLg==&lt;/subfield&gt;
+    &lt;/datafield&gt;
+
+    &lt;!-- Uploading the relation between two bibdocs in any version --&gt;
+
+    &lt;datafield tag="BRT" ind1=" " ind2=" "&gt;
+      &lt;subfield code="i"&gt;TMP:Definedidentifier&lt;/subfield&gt;
+      &lt;subfield code="j"&gt;TMP:Definedidentifier2&lt;/subfield&gt;
+      &lt;subfield code="t"&gt;is_extracted_from&lt;/subfield&gt;
+      &lt;subfield code="m"&gt;KGRwMQpTJ2ZpZ3VyZXMnCnAyCihkcDMKUyd5JwpJMjMKc1MneCcKSTEyCnNzLg==&lt;/subfield&gt;
+    &lt;/datafield&gt;
+
+  &lt;/record&gt;
+&lt;/collection&gt;
+</pre>
+<p>
+-- <a href="https://twiki.cern.ch/twiki/bin/view/Main/PiotrPraczyk" class="twikiLink">PiotrPraczyk</a> - 30-Mar-2011
+</p><h1><a name="Extraction_of_the_semantic_infor"></a> Extraction of the semantic information behind figures </h1>
+<p>
+</p><h2><a name="Description_of_the_semantic_info"></a> Description of the semantic information </h2>
+<p>
+</p><h1><a name="Similarity_between_figures"></a> Similarity between figures </h1>
+<p>
+</p><h1><a name="Indexing"></a> Indexing </h1>
+<p>
+-- <a href="https://twiki.cern.ch/twiki/bin/view/Main/PiotrPraczyk" class="twikiLink">PiotrPraczyk</a> - 28-Feb-2011
+</p><p> </p></div><!-- /patternTopic-->
+<div class="twikiContentFooter"></div><div class="twikiAttachments">
+<div class="twistyPlugin twikiMakeVisibleInline">  <span id="topicattachmentslistshow" class="twistyRememberSetting twistyFirstStartShow twistyTrigger twikiUnvisited twistyHidden twistyInited1"><a href="https://twiki.cern.ch/twiki/bin/view/Inspire/SystemDesignPlotsWorkflow#"><img src="./SystemDesignPlotsWorkflow   Inspire   TWiki_files/toggleopen.gif" border="0" alt=""><span class="twikiLinkLabel twikiUnvisited">Attachments</span></a> </span> <span id="topicattachmentslisthide" class="twistyRememberSetting twistyFirstStartShow twistyTrigger twikiUnvisited twistyInited1"><a href="https://twiki.cern.ch/twiki/bin/view/Inspire/SystemDesignPlotsWorkflow#"><img src="./SystemDesignPlotsWorkflow   Inspire   TWiki_files/toggleclose.gif" border="0" alt=""><span class="twikiLinkLabel twikiUnvisited">Attachments</span></a> </span>  </div><!--/twistyPlugin twikiMakeVisibleInline--> <div class="twistyPlugin"><div id="topicattachmentslisttoggle" class="twistyRememberSetting twistyFirstStartShow twistyContent twistyInited1">
+<table summary="Topic attachments" cellspacing="0" id="twikiAttachmentsTable" cellpadding="0" class="twikiTable" rules="rows" border="1"><caption>Topic attachments</caption>
+		<tbody><tr class="twikiTableOdd twikiTableRowdataBgSorted0 twikiTableRowdataBg0">
+			<th bgcolor="#ffffff" valign="middle" class="twikiTableCol0 twikiFirstCol"> <a rel="nofollow" href="https://twiki.cern.ch/twiki/bin/view/Inspire/SystemDesignPlotsWorkflow?sortcol=0;table=5;up=0#sorted_table" title="Sort by this column"><font color="#0066cc">I</font></a> </th>
+			<th bgcolor="#ffffff" valign="middle" class="twikiTableCol1"> <a rel="nofollow" href="https://twiki.cern.ch/twiki/bin/view/Inspire/SystemDesignPlotsWorkflow?sortcol=1;table=5;up=0#sorted_table" title="Sort by this column"><font color="#0066cc">Attachment</font></a> </th>
+			<th bgcolor="#ffffff" valign="middle" class="twikiTableCol2"> <a rel="nofollow" href="https://twiki.cern.ch/twiki/bin/view/Inspire/SystemDesignPlotsWorkflow?sortcol=2;table=5;up=0#sorted_table" title="Sort by this column"><font color="#0066cc">Action</font></a> </th>
+			<th bgcolor="#ffffff" valign="middle" class="twikiTableCol3"> <a rel="nofollow" href="https://twiki.cern.ch/twiki/bin/view/Inspire/SystemDesignPlotsWorkflow?sortcol=3;table=5;up=0#sorted_table" title="Sort by this column"><font color="#0066cc">Size</font></a> </th>
+			<th bgcolor="#ffffff" valign="middle" class="twikiTableCol4"> <a rel="nofollow" href="https://twiki.cern.ch/twiki/bin/view/Inspire/SystemDesignPlotsWorkflow?sortcol=4;table=5;up=0#sorted_table" title="Sort by this column"><font color="#0066cc">Date</font></a> </th>
+			<th bgcolor="#ffffff" valign="middle" class="twikiTableCol5"> <a rel="nofollow" href="https://twiki.cern.ch/twiki/bin/view/Inspire/SystemDesignPlotsWorkflow?sortcol=5;table=5;up=0#sorted_table" title="Sort by this column"><font color="#0066cc">Who</font></a> </th>
+			<th bgcolor="#ffffff" valign="middle" class="twikiTableCol6 twikiLastCol"> <a rel="nofollow" href="https://twiki.cern.ch/twiki/bin/view/Inspire/SystemDesignPlotsWorkflow?sortcol=6;table=5;up=0#sorted_table" title="Sort by this column"><font color="#0066cc">Comment</font></a> </th>
+		</tr>
+		<tr class="twikiTableEven twikiTableRowdataBgSorted0 twikiTableRowdataBg0">
+			<td bgcolor="#ffffff" align="center" valign="top" class="twikiTableCol0 twikiFirstCol"> <img src="./SystemDesignPlotsWorkflow   Inspire   TWiki_files/png.gif" width="16" height="16" alt="PNG" title="PNG" border="0"><span class="twikiHidden">png</span> </td>
+			<td bgcolor="#ffffff" align="left" valign="top" class="twikiTableCol1"> <a href="./SystemDesignPlotsWorkflow   Inspire   TWiki_files/PlotsWorkflow.png">PlotsWorkflow.png</a> </td>
+			<td bgcolor="#ffffff" align="left" valign="top" class="twikiTableCol2"> <a href="https://twiki.cern.ch/twiki/bin/attach/Inspire/SystemDesignPlotsWorkflow?filename=PlotsWorkflow.png;revInfo=1" title="change, update, previous revisions, move, delete..." rel="nofollow">manage</a> </td>
+			<td bgcolor="#ffffff" align="right" valign="top" class="twikiTableCol3"> 56.8&nbsp;K </td>
+			<td bgcolor="#ffffff" align="left" valign="top" class="twikiTableCol4"> <span class="twikiNoBreak">28-Feb-2011 - 23:20</span> </td>
+			<td bgcolor="#ffffff" align="left" valign="top" class="twikiTableCol5"> <a href="https://twiki.cern.ch/twiki/bin/view/Main/PiotrPraczyk" class="twikiLink">PiotrPraczyk</a> </td>
+			<td bgcolor="#ffffff" align="left" valign="top" class="twikiTableCol6 twikiLastCol"> &nbsp; </td>
+		</tr>
+		<tr class="twikiTableOdd twikiTableRowdataBgSorted0 twikiTableRowdataBg0">
+			<td bgcolor="#ffffff" align="center" valign="top" class="twikiTableCol0 twikiFirstCol"> <img src="./SystemDesignPlotsWorkflow   Inspire   TWiki_files/else.gif" width="16" height="16" alt="Unknown file format" title="Unknown file format" border="0"><span class="twikiHidden">dia</span> </td>
+			<td bgcolor="#ffffff" align="left" valign="top" class="twikiTableCol1"> <a href="https://twiki.cern.ch/twiki/pub/Inspire/SystemDesignPlotsWorkflow/ProcessDiagram.dia">ProcessDiagram.dia</a> </td>
+			<td bgcolor="#ffffff" align="left" valign="top" class="twikiTableCol2"> <a href="https://twiki.cern.ch/twiki/bin/attach/Inspire/SystemDesignPlotsWorkflow?filename=ProcessDiagram.dia;revInfo=1" title="change, update, previous revisions, move, delete..." rel="nofollow">manage</a> </td>
+			<td bgcolor="#ffffff" align="right" valign="top" class="twikiTableCol3"> 2.3&nbsp;K </td>
+			<td bgcolor="#ffffff" align="left" valign="top" class="twikiTableCol4"> <span class="twikiNoBreak">20-Mar-2011 - 18:45</span> </td>
+			<td bgcolor="#ffffff" align="left" valign="top" class="twikiTableCol5"> <a href="https://twiki.cern.ch/twiki/bin/view/Main/PiotrPraczyk" class="twikiLink">PiotrPraczyk</a> </td>
+			<td bgcolor="#ffffff" align="left" valign="top" class="twikiTableCol6 twikiLastCol"> results merging process - a dia diagram </td>
+		</tr>
+		<tr class="twikiTableEven twikiTableRowdataBgSorted0 twikiTableRowdataBg0">
+			<td bgcolor="#ffffff" align="center" valign="top" class="twikiTableCol0 twikiFirstCol"> <img src="./SystemDesignPlotsWorkflow   Inspire   TWiki_files/png.gif" width="16" height="16" alt="PNG" title="PNG" border="0"><span class="twikiHidden">png</span> </td>
+			<td bgcolor="#ffffff" align="left" valign="top" class="twikiTableCol1"> <a href="https://twiki.cern.ch/twiki/pub/Inspire/SystemDesignPlotsWorkflow/cyp.png">cyp.png</a> </td>
+			<td bgcolor="#ffffff" align="left" valign="top" class="twikiTableCol2"> <a href="https://twiki.cern.ch/twiki/bin/attach/Inspire/SystemDesignPlotsWorkflow?filename=cyp.png;revInfo=1" title="change, update, previous revisions, move, delete..." rel="nofollow">manage</a> </td>
+			<td bgcolor="#ffffff" align="right" valign="top" class="twikiTableCol3"> 232.6&nbsp;K </td>
+			<td bgcolor="#ffffff" align="left" valign="top" class="twikiTableCol4"> <span class="twikiNoBreak">28-Feb-2011 - 23:18</span> </td>
+			<td bgcolor="#ffffff" align="left" valign="top" class="twikiTableCol5"> <a href="https://twiki.cern.ch/twiki/bin/view/Main/PiotrPraczyk" class="twikiLink">PiotrPraczyk</a> </td>
+			<td bgcolor="#ffffff" align="left" valign="top" class="twikiTableCol6 twikiLastCol"> &nbsp; </td>
+		</tr>
+		<tr class="twikiTableOdd twikiTableRowdataBgSorted0 twikiTableRowdataBg0">
+			<td bgcolor="#ffffff" align="center" valign="top" class="twikiTableCol0 twikiFirstCol"> <img src="./SystemDesignPlotsWorkflow   Inspire   TWiki_files/png.gif" width="16" height="16" alt="PNG" title="PNG" border="0"><span class="twikiHidden">png</span> </td>
+			<td bgcolor="#ffffff" align="left" valign="top" class="twikiTableCol1"> <a href="https://twiki.cern.ch/twiki/pub/Inspire/SystemDesignPlotsWorkflow/figuresUnificationProcess.png">figuresUnificationProcess.png</a> </td>
+			<td bgcolor="#ffffff" align="left" valign="top" class="twikiTableCol2"> <a href="https://twiki.cern.ch/twiki/bin/attach/Inspire/SystemDesignPlotsWorkflow?filename=figuresUnificationProcess.png;revInfo=1" title="change, update, previous revisions, move, delete..." rel="nofollow">manage</a> </td>
+			<td bgcolor="#ffffff" align="right" valign="top" class="twikiTableCol3"> 49.1&nbsp;K </td>
+			<td bgcolor="#ffffff" align="left" valign="top" class="twikiTableCol4"> <span class="twikiNoBreak">20-Mar-2011 - 20:59</span> </td>
+			<td bgcolor="#ffffff" align="left" valign="top" class="twikiTableCol5"> <a href="https://twiki.cern.ch/twiki/bin/view/Main/PiotrPraczyk" class="twikiLink">PiotrPraczyk</a> </td>
+			<td bgcolor="#ffffff" align="left" valign="top" class="twikiTableCol6 twikiLastCol"> &nbsp; </td>
+		</tr>
+		<tr class="twikiTableEven twikiTableRowdataBgSorted0 twikiTableRowdataBg0">
+			<td bgcolor="#ffffff" align="center" valign="top" class="twikiTableCol0 twikiFirstCol"> <img src="./SystemDesignPlotsWorkflow   Inspire   TWiki_files/png.gif" width="16" height="16" alt="PNG" title="PNG" border="0"><span class="twikiHidden">png</span> </td>
+			<td bgcolor="#ffffff" align="left" valign="top" class="twikiTableCol1"> <a href="https://twiki.cern.ch/twiki/pub/Inspire/SystemDesignPlotsWorkflow/matching_1.png">matching_1.png</a> </td>
+			<td bgcolor="#ffffff" align="left" valign="top" class="twikiTableCol2"> <a href="https://twiki.cern.ch/twiki/bin/attach/Inspire/SystemDesignPlotsWorkflow?filename=matching_1.png;revInfo=1" title="change, update, previous revisions, move, delete..." rel="nofollow">manage</a> </td>
+			<td bgcolor="#ffffff" align="right" valign="top" class="twikiTableCol3"> 69.1&nbsp;K </td>
+			<td bgcolor="#ffffff" align="left" valign="top" class="twikiTableCol4"> <span class="twikiNoBreak">20-Mar-2011 - 22:04</span> </td>
+			<td bgcolor="#ffffff" align="left" valign="top" class="twikiTableCol5"> <a href="https://twiki.cern.ch/twiki/bin/view/Main/PiotrPraczyk" class="twikiLink">PiotrPraczyk</a> </td>
+			<td bgcolor="#ffffff" align="left" valign="top" class="twikiTableCol6 twikiLastCol"> &nbsp; </td>
+		</tr>
+		<tr class="twikiTableOdd twikiTableRowdataBgSorted0 twikiTableRowdataBg0">
+			<td bgcolor="#ffffff" align="center" valign="top" class="twikiTableCol0 twikiFirstCol"> <img src="./SystemDesignPlotsWorkflow   Inspire   TWiki_files/png.gif" width="16" height="16" alt="PNG" title="PNG" border="0"><span class="twikiHidden">png</span> </td>
+			<td bgcolor="#ffffff" align="left" valign="top" class="twikiTableCol1"> <a href="https://twiki.cern.ch/twiki/pub/Inspire/SystemDesignPlotsWorkflow/matching_2.png">matching_2.png</a> </td>
+			<td bgcolor="#ffffff" align="left" valign="top" class="twikiTableCol2"> <a href="https://twiki.cern.ch/twiki/bin/attach/Inspire/SystemDesignPlotsWorkflow?filename=matching_2.png;revInfo=1" title="change, update, previous revisions, move, delete..." rel="nofollow">manage</a> </td>
+			<td bgcolor="#ffffff" align="right" valign="top" class="twikiTableCol3"> 128.0&nbsp;K </td>
+			<td bgcolor="#ffffff" align="left" valign="top" class="twikiTableCol4"> <span class="twikiNoBreak">20-Mar-2011 - 22:27</span> </td>
+			<td bgcolor="#ffffff" align="left" valign="top" class="twikiTableCol5"> <a href="https://twiki.cern.ch/twiki/bin/view/Main/PiotrPraczyk" class="twikiLink">PiotrPraczyk</a> </td>
+			<td bgcolor="#ffffff" align="left" valign="top" class="twikiTableCol6 twikiLastCol"> &nbsp; </td>
+		</tr>
+		<tr class="twikiTableEven twikiTableRowdataBgSorted0 twikiTableRowdataBg0">
+			<td bgcolor="#ffffff" align="center" valign="top" class="twikiTableCol0 twikiFirstCol"> <img src="./SystemDesignPlotsWorkflow   Inspire   TWiki_files/png.gif" width="16" height="16" alt="PNG" title="PNG" border="0"><span class="twikiHidden">png</span> </td>
+			<td bgcolor="#ffffff" align="left" valign="top" class="twikiTableCol1"> <a href="https://twiki.cern.ch/twiki/pub/Inspire/SystemDesignPlotsWorkflow/matching_2_5.png">matching_2_5.png</a> </td>
+			<td bgcolor="#ffffff" align="left" valign="top" class="twikiTableCol2"> <a href="https://twiki.cern.ch/twiki/bin/attach/Inspire/SystemDesignPlotsWorkflow?filename=matching_2_5.png;revInfo=1" title="change, update, previous revisions, move, delete..." rel="nofollow">manage</a> </td>
+			<td bgcolor="#ffffff" align="right" valign="top" class="twikiTableCol3"> 77.3&nbsp;K </td>
+			<td bgcolor="#ffffff" align="left" valign="top" class="twikiTableCol4"> <span class="twikiNoBreak">20-Mar-2011 - 22:41</span> </td>
+			<td bgcolor="#ffffff" align="left" valign="top" class="twikiTableCol5"> <a href="https://twiki.cern.ch/twiki/bin/view/Main/PiotrPraczyk" class="twikiLink">PiotrPraczyk</a> </td>
+			<td bgcolor="#ffffff" align="left" valign="top" class="twikiTableCol6 twikiLastCol"> &nbsp; </td>
+		</tr>
+		<tr class="twikiTableOdd twikiTableRowdataBgSorted0 twikiTableRowdataBg0">
+			<td bgcolor="#ffffff" align="center" valign="top" class="twikiTableCol0 twikiFirstCol twikiLast"> <img src="./SystemDesignPlotsWorkflow   Inspire   TWiki_files/png.gif" width="16" height="16" alt="PNG" title="PNG" border="0"><span class="twikiHidden">png</span> </td>
+			<td bgcolor="#ffffff" align="left" valign="top" class="twikiTableCol1 twikiLast"> <a href="https://twiki.cern.ch/twiki/pub/Inspire/SystemDesignPlotsWorkflow/matching_3.png">matching_3.png</a> </td>
+			<td bgcolor="#ffffff" align="left" valign="top" class="twikiTableCol2 twikiLast"> <a href="https://twiki.cern.ch/twiki/bin/attach/Inspire/SystemDesignPlotsWorkflow?filename=matching_3.png;revInfo=1" title="change, update, previous revisions, move, delete..." rel="nofollow">manage</a> </td>
+			<td bgcolor="#ffffff" align="right" valign="top" class="twikiTableCol3 twikiLast"> 44.3&nbsp;K </td>
+			<td bgcolor="#ffffff" align="left" valign="top" class="twikiTableCol4 twikiLast"> <span class="twikiNoBreak">20-Mar-2011 - 22:05</span> </td>
+			<td bgcolor="#ffffff" align="left" valign="top" class="twikiTableCol5 twikiLast"> <a href="https://twiki.cern.ch/twiki/bin/view/Main/PiotrPraczyk" class="twikiLink">PiotrPraczyk</a> </td>
+			<td bgcolor="#ffffff" align="left" valign="top" class="twikiTableCol6 twikiLastCol twikiLast"> &nbsp; </td>
+		</tr></tbody></table>
+</div></div> <!--/twistyPlugin--></div><!--//twikiAttachments--></div><!-- /patternContent-->
+<div class="clear"></div>
+<a name="topic-actions"></a><div class="patternTopicActions"><div class="patternTopicAction"><span class="patternActionButtons"><span><a href="https://twiki.cern.ch/twiki/bin/edit/Inspire/SystemDesignPlotsWorkflow?t=1377775070;nowysiwyg=1" rel="nofollow" title="Edit this topic text" accesskey="e"><img src="./SystemDesignPlotsWorkflow   Inspire   TWiki_files/uweb-o14.gif" width="14" height="14" border="0" alt=""> <span class="twikiAccessKey">E</span>dit</a></span><span class="twikiSeparator">&nbsp;|&nbsp;</span><span><a href="https://twiki.cern.ch/twiki/bin/attach/Inspire/SystemDesignPlotsWorkflow" rel="nofollow" title="Attach an image or document to this topic" accesskey="a"><span class="twikiAccessKey">A</span>ttach</a></span><span class="twikiSeparator">&nbsp;|&nbsp;</span><span><a href="https://twiki.cern.ch/twiki/bin/view/Inspire/SystemDesignPlotsWorkflow?cover=print" rel="nofollow" title="Printable version of this topic" accesskey="p"><span class="twikiAccessKey">P</span>rint version</a></span><span class="twikiSeparator">&nbsp;|&nbsp;</span><span><span><a href="https://twiki.cern.ch/twiki/bin/rdiff/Inspire/SystemDesignPlotsWorkflow?type=history" rel="nofollow" title="View total topic history" accesskey="h"><span class="twikiAccessKey">H</span>istory</a></span>: r12&nbsp;<a rel="nofollow" href="https://twiki.cern.ch/twiki/bin/rdiff/Inspire/SystemDesignPlotsWorkflow?rev1=12;rev2=11">&lt;</a>&nbsp;<a rel="nofollow" href="https://twiki.cern.ch/twiki/bin/view/Inspire/SystemDesignPlotsWorkflow?rev=11">r11</a>&nbsp;<a rel="nofollow" href="https://twiki.cern.ch/twiki/bin/rdiff/Inspire/SystemDesignPlotsWorkflow?rev1=11;rev2=10">&lt;</a>&nbsp;<a rel="nofollow" href="https://twiki.cern.ch/twiki/bin/view/Inspire/SystemDesignPlotsWorkflow?rev=10">r10</a>&nbsp;<a rel="nofollow" href="https://twiki.cern.ch/twiki/bin/rdiff/Inspire/SystemDesignPlotsWorkflow?rev1=10;rev2=9">&lt;</a>&nbsp;<a rel="nofollow" href="https://twiki.cern.ch/twiki/bin/view/Inspire/SystemDesignPlotsWorkflow?rev=9">r9</a>&nbsp;<a rel="nofollow" href="https://twiki.cern.ch/twiki/bin/rdiff/Inspire/SystemDesignPlotsWorkflow?rev1=9;rev2=8">&lt;</a>&nbsp;<a rel="nofollow" href="https://twiki.cern.ch/twiki/bin/view/Inspire/SystemDesignPlotsWorkflow?rev=8">r8</a></span><span class="twikiSeparator">&nbsp;|&nbsp;</span><span><a href="https://twiki.cern.ch/twiki/bin/oops/Inspire/SystemDesignPlotsWorkflow?template=backlinksweb" rel="nofollow" title="Search the Inspire Web for topics that link to here" accesskey="b"><span class="twikiAccessKey">B</span>acklinks</a></span><span class="twikiSeparator">&nbsp;|&nbsp;</span><span><a href="https://twiki.cern.ch/twiki/bin/view/Inspire/SystemDesignPlotsWorkflow?raw=on" rel="nofollow" title="View raw text without formatting" accesskey="r"><span class="twikiAccessKey">R</span>aw View</a></span><span class="twikiSeparator">&nbsp;|&nbsp;</span><span><a href="https://twiki.cern.ch/twiki/bin/edit/Inspire/SystemDesignPlotsWorkflow?t=1377775070;nowysiwyg=0" rel="nofollow" title="WYSIWYG editor" accesskey="w">WYSIWYG</a></span><span class="twikiSeparator">&nbsp;|&nbsp;</span><span><a href="https://twiki.cern.ch/twiki/bin/oops/Inspire/SystemDesignPlotsWorkflow?template=oopsmore&param1=12&param2=12" rel="nofollow" title="Delete or rename this topic; set parent topic; view and compare revisions" accesskey="m"><span class="twikiAccessKey">M</span>ore topic actions</a></span></span></div><!--/patternTopicAction--></div><!--/patternTopicActions-->
+<div class="patternInfo twikiGrayText"><div class="patternRevInfo">Topic revision: r12 - 17-Jan-2012 <a href="https://twiki.cern.ch/twiki/bin/edit/Inspire/SystemDesignPlotsWorkflow?nowysiwyg=1377775070" target="_top">-</a> <a href="https://twiki.cern.ch/twiki/bin/view/Main/PiotrPraczyk" class="twikiLink">PiotrPraczyk</a></div><!-- /patternRevInfo--></div><!-- /patternInfo-->
+</div><!-- /patternMainContents-->
+</div><!-- /patternMain--><div id="patternLeftBar"><div id="patternClearHeaderLeft"></div>
+<div id="patternLeftBarContents"><div class="patternWebIndicator"> <ul>
+<li> <a href="https://twiki.cern.ch/twiki/bin/view/Inspire/WebHome" class="twikiCurrentWebHomeLink twikiLink"><img src="./SystemDesignPlotsWorkflow   Inspire   TWiki_files/web-bg-small.gif" width="13" height="13" alt="Web background" title="Web background" border="0"> Inspire</a>
+</li></ul> 
+</div> <ul>
+<li> <b><a href="https://twiki.cern.ch/twiki/bin/view/Inspire/WebHome" class="twikiCurrentWebHomeLink twikiLink"> <img src="./SystemDesignPlotsWorkflow   Inspire   TWiki_files/home.gif" width="16" height="16" alt="Home" title="Home" border="0"> Inspire Wiki</a></b>
+</li> <li> <a href="https://twiki.cern.ch/twiki/bin/view/Inspire/WebTopicCreator?parent=SystemDesignPlotsWorkflow" target="_top"> <img src="./SystemDesignPlotsWorkflow   Inspire   TWiki_files/newtopic.gif" width="16" height="16" alt="New topic" title="New topic" border="0"> Create New Topic</a>
+</li> <li> <a href="https://twiki.cern.ch/twiki/bin/view/Inspire/WebTopicList" class="twikiLink"> <img src="./SystemDesignPlotsWorkflow   Inspire   TWiki_files/index.gif" width="16" height="16" alt="Index" title="Index" border="0"> Index</a>
+</li> <li> <a href="https://twiki.cern.ch/twiki/bin/view/Inspire/WebSearch" class="twikiLink"> <img src="./SystemDesignPlotsWorkflow   Inspire   TWiki_files/searchtopic.gif" width="16" height="16" alt="Search topic" title="Search topic" border="0"> Search</a>
+</li> <li> <a href="https://twiki.cern.ch/twiki/bin/view/Inspire/WebChanges" class="twikiLink"> <img src="./SystemDesignPlotsWorkflow   Inspire   TWiki_files/changes.gif" width="16" height="16" alt="Changes" title="Changes" border="0"> Changes</a>
+</li> <li> <a href="https://twiki.cern.ch/twiki/bin/view/Inspire/WebNotify" class="twikiLink"> <img src="./SystemDesignPlotsWorkflow   Inspire   TWiki_files/notify.gif" width="16" height="16" alt="Notify" title="Notify" border="0"> Notifications</a>
+</li> <li> <a href="https://twiki.cern.ch/twiki/bin/view/Inspire/WebStatistics" class="twikiLink"> <img src="./SystemDesignPlotsWorkflow   Inspire   TWiki_files/statistics.gif" width="16" height="16" alt="Statistics" title="Statistics" border="0"> Statistics</a>
+</li> <li> <a href="https://twiki.cern.ch/twiki/bin/view/Inspire/WebPreferences" class="twikiLink"> <img src="./SystemDesignPlotsWorkflow   Inspire   TWiki_files/wrench.gif" width="16" height="16" alt="Wrench, tools" title="Wrench, tools" border="0"> Preferences</a>
+</li></ul> 
+<p>
+</p><hr>
+<strong>Related wikis:</strong> <ul>
+<li> <a href="https://twiki.cern.ch/twiki/bin/view/CDS/WebTopicList" class="twikiLink">Invenio</a>
+</li></ul> 
+</div><!-- /patternLeftBarContents--></div><!-- /patternLeftBar-->
+</div><!-- /patternFloatWrap-->
+<div class="clear">&nbsp;</div>
+</div><!-- /patternOuter--></div><!-- /patternWrapper--><div id="patternTopBar"><div id="patternTopBarContents"><table border="0" cellpadding="0" cellspacing="0" style="width:100%; margin-top:12px;">
+<tbody><tr><td valign="middle"><span id="twikiLogo" class="twikiImage"><a href="http://www.cern.ch/"><img src="./SystemDesignPlotsWorkflow   Inspire   TWiki_files/outline-blue2.png" border="0" alt="CERN" style="border:none;"></a></span></td>
+<td align="right" valign="top" class="patternMetaMenu">
+ <ul>
+<li> <form name="jumpForm" action="./SystemDesignPlotsWorkflow   Inspire   TWiki_files/SystemDesignPlotsWorkflow   Inspire   TWiki.html"><input id="jumpFormField" type="text" class="twikiInputField twikiInputFieldBeforeFocus" name="topic" value="" size="18"><noscript>&amp;nbsp;&lt;input type="submit" class="twikiButton" size="5" name="submit" value="Jump" /&gt;&amp;nbsp;</noscript>   </form>
+</li> <li> <form name="quickSearchForm" action="https://search.cern.ch/Pages/TwikiResults.aspx" target="search" class="cernTWikiSearch">    <ul class="engineList">        <li class="active" id="cernsearch"><img src="./SystemDesignPlotsWorkflow   Inspire   TWiki_files/1341566509_search_button.png" alt="Cern Search Icon"><span class="engineDescription">Cern Search</span></li>        <li id="twikisearch"><img src="./SystemDesignPlotsWorkflow   Inspire   TWiki_files/twiki.gif" alt="TWiki Search Icon"><span class="engineDescription">TWiki Search</span></li>        <li id="googlesearch"><img class="engine" src="./SystemDesignPlotsWorkflow   Inspire   TWiki_files/1341566419_google.png" alt="Google Search Icon"><span class="engineDescription">Google Search</span></li>    </ul>    <input type="text" class="twikiInputField twikiInputFieldBeforeFocus" id="quickSearchBox" name="k" value="" size="18"><br>    <input type="radio" name="scope" value="Inspire" checked="">     <span class="webScopeDescription">Inspire</span>     <input type="radio" name="scope" value="AllWebs">    <span class="allWebsScopeDescription">All webs</span> <input type="hidden" name="autologin" value="1">     <noscript>        &amp;nbsp; &lt;input type="submit" size="5" class="twikiButton" name="submit" value="Search"/&gt;&amp;nbsp;    </noscript></form>
+</li></ul> 
+<!-- <pre> -->
+<style type="text/css">
+    .patternMetaMenu ul li {
+        display: inline-block;
+        vertical-align: top;
+    }
+    
+    .patternMetaMenu ul form {
+        display: block;
+    }    
+
+    .cernTWikiSearch {
+        position: relative;
+    }
+    
+    .cernTWikiSearch ul.engineList {
+        background: url("https://twiki.cern.ch/twiki/pub/Sandbox/TestSearchBox/arrow.png") no-repeat scroll 15px 0 transparent;
+        cursor: pointer;
+        padding: 0 15px 0 0;
+        left: 11px;
+        position: absolute;
+        top: 4px;
+    }
+    
+    .cernTWikiSearch ul.engineList > li {
+        display: none;
+        text-align: left;
+        line-height: 1em;
+        margin-bottom: 1px;
+    }
+    
+    .cernTWikiSearch ul.engineList.open > li {
+        display: block;
+    }
+    
+    .cernTWikiSearch ul.engineList > li:first-child {
+        display: block;
+    }
+    
+    .cernTWikiSearch ul.engineList > li:last-child {
+        margin-bottom: 0px;
+    }
+   
+    .cernTWikiSearch ul.engineList img {
+        width: 15px;
+        height: 15px;
+    }
+    
+    .cernTWikiSearch ul.engineList .engineDescription {
+        display: none;
+    }
+    
+    .cernTWikiSearch input.twikiInputField {
+        padding: .1em .2em .1em 2.5em;
+    }
+    
+    .cernTWikiSearch input.twikiInputField::-webkit-input-placeholder, /* WebKit browsers */
+         .cernTWikiSearch input.twikiInputField:-ms-input-placeholder, /* Internet Explorer 10+ */
+             .cernTWikiSearch input.twikiInputField::-moz-placeholder, /* Mozilla Firefox 19+ */     
+              .cernTWikiSearch input.twikiInputField:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+        color: #555;
+    }
+    
+    .cernTWikiSearch span.allWebsScopeDescription.disabled {
+        text-decoration: line-through;
+    }
+</style>
+<!-- </pre> -->
+<!-- <pre> -->
+<script type="text/javascript">
+    $(function() {
+        var currentWeb = undefined; // We use the current web name to form the redirect in the TWiki search
+        var specialWeb = undefined; // If the web starts with alice* atlas* cms* or lhcb* (case-insensitive), the "Web search" should be altered so that AtlasFoo => Atlas
+        var searchPhrase = ''; // Remembering what the user have entered into the searchbox to after he has selected a new search engine from the dropdown
+    
+        // We want to store the current web for later use.
+        var currentWebSearch = window.location.pathname.match(/\/([A-Z][^\/]+)/);
+        if (currentWebSearch != null) {
+            currentWeb = currentWebSearch[1];
+
+            // Do we have a special kind of web? If so, the web search should be altered a little to fetch more broader results.
+            var specialWebSearch = currentWeb.match(/^(alice|atlas|cms|lhcb)/i);
+            if (specialWebSearch != null) {
+                var lowercaseToCorrect = {
+                    'alice' : 'Alice',
+                    'atlas' : 'Atlas',
+                    'cms'   : 'CMS',
+                    'lhcb'  : 'LHCb'
+                };
+                specialWeb = lowercaseToCorrect[specialWebSearch[1].toLowerCase()];
+                $('span.webScopeDescription').text(specialWeb);
+            }
+        } else {
+            currentWeb = 'DefaultWeb';
+        }
+
+        // Do we have a favourite search engine in localStorage?
+        if (window.localStorage) {
+            var storedEngine = localStorage.getItem('defaultSearchEngine');
+            console.log('stored engine preference: ' + storedEngine);
+            var storedEngineLi = $('.cernTWikiSearch li#' + storedEngine);
+            if (!storedEngineLi.hasClass('active')) {
+                changeActiveSearchEngine(storedEngineLi);
+            }
+            if (storedEngine == 'twikisearch') {
+                $('input[name=scope][value=AllWebs]').attr('disabled','disabled');
+                $('.allWebsScopeDescription').addClass('disabled');
+            }
+        }
+        
+        // Toggle the searchEngines list on and off on click
+        $('.cernTWikiSearch ul.engineList').click(function(e) {
+            e.stopPropagation();
+            if ($(this).hasClass('open')) {
+                $(this).removeClass('open');
+            } else {
+                $(this).addClass('open');
+            }
+        });
+
+        // Stupid IE8 hack because the click handler on ul.engineList does not work properly there.
+        if ($.browser.msie && document.documentMode && document.documentMode < 9) {
+            $('.cernTWikiSearch #quickSearchBox').focus(function(e) {
+                $('.cernTWikiSearch ul.engineList').removeClass('open');
+            });
+        }
+        
+        // Handle clicks on one of the search engines
+        $('.cernTWikiSearch ul.engineList li').click(function(e) {
+            // If we clicked on a <li> that does not has class 'active', it means this should become active and swap places with this.
+            if (!$(this).hasClass('active')) {
+                changeActiveSearchEngine($(this));
+            }  
+            if ($(this).parent().hasClass('open')) {
+                $('.cernTWikiSearch #quickSearchBox').val(searchPhrase);
+                $('.cernTWikiSearch #quickSearchBox').focus();                          
+            }
+            if ($(this).attr('id') == 'twikisearch') {
+                var allWebsRadio = $('input[name=scope][value=AllWebs]');
+                allWebsRadio.attr('disabled','disabled');
+                allWebsRadio.siblings('input[type=radio]').attr('checked',true)
+                $('.allWebsScopeDescription').addClass('disabled');
+            } else {
+                $('input[name=scope][value=AllWebs]').attr('disabled','');
+                $('.allWebsScopeDescription').removeClass('disabled');
+            }
+        });
+        
+        // Show the engine description text on hover
+        $('.engineList.open li').live('hover',function() {
+            var displayText = $(this).find('span.engineDescription').text();
+            $('.cernTWikiSearch #quickSearchBox').val(displayText);
+        });
+
+
+        // The form is submitted, now let's do the search.
+        $('.cernTWikiSearch').submit(function(e) {
+            e.preventDefault();
+
+            var scope = $('input[name=scope]:checked', $(this)).val();
+            if (scope != 'AllWebs' && specialWeb !== undefined) {
+                scope = specialWeb;
+            }
+            var val = $('.cernTWikiSearch #quickSearchBox').val();
+            var engine = $('.engineList li.active').attr('id')
+            
+            switch (engine) {
+                case 'googlesearch':
+                    window.open('https://google.com/search?q=site:' + encodeURIComponent('https://twiki.cern.ch') + (scope != 'AllWebs' ? ' ' + scope : '') + ' ' + val);
+                    break;
+                case 'cernsearch':
+                    window.open('https://search.cern.ch/Pages/TwikiResults.aspx?k=' + val + (scope != 'AllWebs' ? ' generic2:' + scope : '') + '&autologin=1');
+                    break;
+                case 'twikisearch':
+                    window.open(window.location.pathname.replace(/\/[A-Z].+$/,'') + '/' + currentWeb + '/WebSearch?search=' + val + '&scope=all');
+                    break;
+            default:
+                break;
+            }
+            
+            // Save the search engine. If the user reloads the page he should get the last one used.
+            if (window.localStorage) { 
+                console.log('store engine preference: ' + engine);
+                localStorage.setItem('defaultSearchEngine',engine);
+            }
+        });
+        
+        // Save the search phrase on every key up
+        $('.cernTWikiSearch #quickSearchBox').keyup(function() {
+            searchPhrase = $(this).val();
+        });
+        
+        // If a user clicks outside the search engine list, the search engine list should be closed.
+        $('html').click(function() {
+            if ($('.engineList').hasClass('open')) {
+                $('.engineList').removeClass('open');
+                $('.cernTWikiSearch #quickSearchBox').val(searchPhrase);
+            }
+        });
+    });
+    
+    // We want to change the active search engine
+    function changeActiveSearchEngine(engineLi) {
+        var activeEngine = engineLi.siblings(':first');
+        engineLi.detach().insertBefore(activeEngine);
+        activeEngine.removeClass('active');
+        engineLi.addClass('active');
+        if (engineLi.attr('id') == 'twikiSearch') {
+            deactivateAllWebsOption();
+        }
+    }
+    
+    // The user has chosen twiki search (or the preference was stored in localStorage). We will then disable the 'All Webs' option since this will time out.
+    function deactivateAllWebsOption() {
+    }
+
+    // Helper method to check input attribute browser compability
+    function checkInputAttributeSupport(attribute) {
+        var i = document.createElement("input");
+        return typeof i.placeholder !== 'undefined';
+    }
+</script>
+<!-- </pre> --> <ul>
+<li> 
+</li></ul> 
+</td></tr></tbody></table></div></div><!-- /patternTopBar--><div id="patternBottomBar"><div id="patternBottomBarContents"><div id="patternWebBottomBar"><span class="twikiRight"> <a href="http://twiki.org/"><img src="./SystemDesignPlotsWorkflow   Inspire   TWiki_files/T-badge-88x31.gif" alt="This site is powered by the TWiki collaboration platform" width="88" height="31" title="This site is powered by the TWiki collaboration platform" border="0"></a></span>Copyright &amp;© by the contributing authors. All material on this collaboration platform is the property of the contributing authors. <br> Ideas, requests, problems regarding TWiki? <a href="mailto:twtool@support@cern.ch?subject=TWiki%20Feeedback%20on%20Inspire.SystemDesignPlotsWorkflow">Send feedback</a> </div><!--/patternWebBottomBar--></div><!-- /patternBottomBarContents--></div><!-- /patternBottomBar-->
+</div><!-- /patternPage-->
+</div><!-- /patternPageShadow-->
+</div><!-- /patternScreen-->
+</body></html>
